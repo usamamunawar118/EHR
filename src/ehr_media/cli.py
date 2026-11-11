@@ -6,6 +6,10 @@ ehr build-fhir       Task 2 - map to FHIR R4 Bundles, validate, report, store (S
 ehr validate         Task 2 - (re)validate stored Bundles or a single Bundle file
 ehr summarize        Task 3 - AI summaries (cached by patient + record hash + prompt + model)
 ehr eval-summaries   Task 3 - score stored summaries (word limit, grounding, recall)
+ehr index            Task 4 - embed documents + summaries into the vector store
+ehr serve            Task 4/5 - run the API and web UI
+ehr run-all          every stage above, in order
+ehr download-models  fetch the embedding model once
 """
 
 from __future__ import annotations
@@ -214,6 +218,86 @@ def eval_summaries() -> None:
     typer.echo(f"report: {out}")
     if not report.passes_hard_requirements():
         raise typer.Exit(code=1)
+
+
+@app.command("download-models")
+def download_models() -> None:
+    """Pre-download the sentence-transformer model (needs network once; then works offline)."""
+    from ehr_media.search.embedder import SentenceTransformerEmbedder
+
+    embedder = SentenceTransformerEmbedder(get_settings().embedding_model)
+    typer.echo(f"ready: {embedder.name} ({embedder.dimension} dimensions)")
+
+
+@app.command()
+def index(
+    backend: Annotated[
+        str | None,
+        typer.Option(help="Override EHR_EMBEDDING_BACKEND: sentence-transformers|hashing."),
+    ] = None,
+) -> None:
+    """Task 4: embed FHIR documents and AI summaries into the Chroma vector store."""
+    from ehr_media.search.embedder import create_embedder
+    from ehr_media.search.indexer import Indexer
+    from ehr_media.search.vector_store import ChromaVectorStore
+    from ehr_media.storage.bundle_repo import BundleRepository
+    from ehr_media.storage.db import Database
+    from ehr_media.storage.summary_cache import SummaryCache
+
+    settings = get_settings()
+    if backend:
+        if backend not in ("sentence-transformers", "hashing"):
+            raise typer.BadParameter("backend must be sentence-transformers or hashing")
+        settings = settings.model_copy(update={"embedding_backend": backend})
+    db = Database(settings.db_path)
+    repo = BundleRepository(db)
+    if repo.count()["patients"] == 0:
+        raise typer.BadParameter("no bundles stored; run `ehr build-fhir` first.")
+
+    embedder = create_embedder(settings)
+    stats = Indexer(
+        repo,
+        SummaryCache(db),
+        embedder,
+        ChromaVectorStore(settings.chroma_dir),
+        chunk_size=settings.chunk_words,
+        chunk_overlap=settings.chunk_overlap_words,
+    ).index_all()
+    typer.echo(
+        f"embedder={embedder.name}: embedded={stats.embedded} unchanged={stats.unchanged} "
+        f"deleted={stats.deleted} total_in_index={stats.total_in_store}"
+    )
+
+
+@app.command()
+def serve(
+    host: Annotated[str, typer.Option(help="Bind address.")] = "127.0.0.1",
+    port: Annotated[int, typer.Option(help="Port.")] = 8000,
+    reload: Annotated[bool, typer.Option(help="Auto-reload on code changes (dev).")] = False,
+) -> None:
+    """Serve the API and the web UI."""
+    import uvicorn
+
+    typer.echo(f"EHR Media Intelligence -> http://{host}:{port}  (API docs: /docs)")
+    uvicorn.run("ehr_media.api.app:create_app", factory=True, host=host, port=port, reload=reload)
+
+
+@app.command("run-all")
+def run_all(
+    provider: Annotated[
+        str | None, typer.Option(help="LLM provider override: auto | anthropic | fake.")
+    ] = None,
+    reference_date: Annotated[str | None, typer.Option(help="ISO date for ingest checks.")] = None,
+) -> None:
+    """Run every stage: generate (if missing), ingest, build-fhir, summarize, index."""
+    settings = get_settings()
+    if not settings.raw_dir.exists():
+        generate_data(out=None, seed=20250416)
+    ingest(input_dir=None, out=None, reference_date=reference_date)
+    build_fhir(strict=True)
+    summarize(limit=None, force=False, provider=provider)
+    index(backend=None)
+    typer.echo("\nAll stages complete. Start the app with:  ehr serve")
 
 
 if __name__ == "__main__":  # pragma: no cover

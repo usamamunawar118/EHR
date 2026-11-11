@@ -12,6 +12,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 LLMProvider = Literal["auto", "anthropic", "fake"]
+EmbeddingBackend = Literal["sentence-transformers", "hashing"]
 
 
 class Settings(BaseSettings):
@@ -44,10 +45,13 @@ class Settings(BaseSettings):
     )
 
     # --- embeddings / search -------------------------------------------------
+    embedding_backend: EmbeddingBackend = "sentence-transformers"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     search_top_k: int = Field(default=5, ge=1, le=50)
-    chunk_words: int = Field(default=200, ge=50)
-    chunk_overlap_words: int = Field(default=30, ge=0)
+    search_overfetch: int = Field(default=6, ge=1, le=50)
+    # MiniLM truncates at 256 word-pieces; ~150 clinical words stays safely inside that.
+    chunk_words: int = Field(default=150, ge=40)
+    chunk_overlap_words: int = Field(default=25, ge=0)
 
     # --- derived paths -------------------------------------------------------
     @property

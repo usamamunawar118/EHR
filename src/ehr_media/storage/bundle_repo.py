@@ -138,6 +138,30 @@ class BundleRepository:
             row = conn.execute("SELECT * FROM patients WHERE mrn = ?", (mrn,)).fetchone()
         return _patient_row(row) if row else None
 
+    def content_hash(self, patient_id: str) -> str | None:
+        """Hash of the patient's current bundle (the summary cache's "record hash")."""
+        with self._db.connection() as conn:
+            row = conn.execute(
+                "SELECT content_hash FROM fhir_bundles WHERE patient_id = ?", (patient_id,)
+            ).fetchone()
+        return str(row[0]) if row else None
+
+    def latest_effective_date(self, patient_id: str) -> str | None:
+        with self._db.connection() as conn:
+            row = conn.execute(
+                "SELECT MAX(effective_date) FROM fhir_resources WHERE patient_id = ?",
+                (patient_id,),
+            ).fetchone()
+        return str(row[0]) if row and row[0] else None
+
+    def get_resource(self, patient_id: str, resource_id: str) -> StoredResource | None:
+        with self._db.connection() as conn:
+            row = conn.execute(
+                "SELECT * FROM fhir_resources WHERE patient_id = ? AND resource_id = ?",
+                (patient_id, resource_id),
+            ).fetchone()
+        return self._resource(row) if row else None
+
     def list_patients(self) -> list[PatientRow]:
         with self._db.connection() as conn:
             rows = conn.execute(
