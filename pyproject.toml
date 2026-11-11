@@ -30,6 +30,11 @@ dev = [
     "mypy>=1.11",
     "pre-commit>=3.8",
 ]
+# Only needed to regenerate docs/WRITEUP.pdf (python docs/build_writeup.py).
+docs = [
+    "reportlab>=4.0",
+    "pypdf>=4.0",
+]
 
 [project.scripts]
 ehr = "ehr_media.cli:app"
