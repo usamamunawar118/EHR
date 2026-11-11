@@ -72,10 +72,17 @@ class ClinicalSummary(BaseModel):
 
     def narrative(self) -> str:
         """Plain-text rendering used for embedding/search and display snippets."""
-        parts = [self.chief_concern]
+
+        def sentence(text: str) -> str:
+            text = text.strip()
+            return text if text.endswith((".", "!", "?")) else text + "."
+
+        parts = [sentence(self.chief_concern)]
         if self.key_diagnoses:
             parts.append("Diagnoses: " + "; ".join(self.key_diagnoses) + ".")
-        parts += [f"{m.type.capitalize()} {m.date}: {m.finding}" for m in self.recent_media]
+        parts += [
+            sentence(f"{m.type.capitalize()} {m.date}: {m.finding}") for m in self.recent_media
+        ]
         if self.flagged_anomalies:
             parts.append("Flags: " + "; ".join(self.flagged_anomalies) + ".")
         return " ".join(parts)

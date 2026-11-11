@@ -29,7 +29,8 @@ class Settings(BaseSettings):
     # --- paths ---------------------------------------------------------------
     raw_dir: Path = PROJECT_ROOT / "data" / "sample" / "raw"
     data_dir: Path = PROJECT_ROOT / "data" / "runtime"
-    frontend_dir: Path = PROJECT_ROOT / "frontend"
+    # Only `public/` is served; tooling (node_modules, package.json, tests) stays outside it.
+    frontend_dir: Path = PROJECT_ROOT / "frontend" / "public"
 
     # --- LLM -----------------------------------------------------------------
     llm_provider: LLMProvider = "auto"

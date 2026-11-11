@@ -38,3 +38,27 @@ jobs:
 
       - name: Tests
         run: pytest --cov=ehr_media --cov-report=term-missing
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - run: npm ci
+
+      - name: Unit tests (node:test)
+        run: npm test
+
+      # The compiled stylesheet is committed so reviewers need no Node to run the app.
+      # Building it here proves the Tailwind sources still compile.
+      - name: Build CSS
+        run: npm run build:css

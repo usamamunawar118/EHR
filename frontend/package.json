@@ -1,0 +1,16 @@
+{
+  "name": "ehr-media-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Clinician-facing search UI (vanilla JS + Tailwind CSS). Only public/ is served.",
+  "scripts": {
+    "build:css": "tailwindcss -i src/input.css -o public/dist/app.css --minify",
+    "watch:css": "tailwindcss -i src/input.css -o public/dist/app.css --watch",
+    "test": "node --test \"tests/*.test.js\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

@@ -4,8 +4,8 @@ __pycache__/
 .venv/
 venv/
 *.egg-info/
-build/
-dist/
+/build/
+/dist/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -25,7 +25,7 @@ data/runtime/
 *.db-shm
 chroma/
 
-# Node (frontend build tooling only; compiled CSS in frontend/dist IS committed)
+# Node (frontend build tooling only; compiled CSS in frontend/public/dist IS committed)
 node_modules/
 
 # OS / editor

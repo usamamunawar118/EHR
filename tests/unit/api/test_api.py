@@ -209,6 +209,25 @@ class TestStaticUiAndErrors:
             assert "<title>ui</title>" in page.text
             assert c.get("/health").status_code == 200  # API routes still win over the mount
 
+    def test_static_assets_must_be_revalidated_so_updates_are_never_stale(
+        self, search_env: Container, tmp_path: Path
+    ) -> None:
+        (tmp_path / "index.html").write_text("<!doctype html>", encoding="utf-8")
+        (tmp_path / "app.js").write_text("export {}", encoding="utf-8")
+        container = Container(
+            **{
+                **search_env.__dict__,
+                "settings": search_env.settings.model_copy(update={"frontend_dir": tmp_path}),
+            }
+        )
+        with TestClient(create_app(container=container)) as c:
+            for path in ("/", "/app.js"):
+                res = c.get(path)
+                assert res.headers["cache-control"] == "no-cache"
+                assert res.headers["etag"]  # validators present, so revalidation is a cheap 304
+            etag = c.get("/app.js").headers["etag"]
+            assert c.get("/app.js", headers={"If-None-Match": etag}).status_code == 304
+
     def test_unhandled_errors_do_not_leak_internals(self, search_env: Container) -> None:
         class Boom:
             def search(self, *_a: object, **_k: object) -> None:

@@ -12,8 +12,9 @@ from __future__ import annotations
 import logging
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
+from typing import Any
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Response
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -24,6 +25,21 @@ from ehr_media.config import Settings, get_settings
 from ehr_media.logging import configure_logging
 
 logger = logging.getLogger(__name__)
+
+
+class RevalidatingStaticFiles(StaticFiles):
+    """Static files that browsers must revalidate on every load.
+
+    Starlette sends no ``Cache-Control``, so browsers cache the JS/CSS heuristically and users can
+    keep running a stale UI after an update. ``no-cache`` still allows a cheap ``304`` via the
+    ETag/Last-Modified validators the base class already sends.
+    """
+
+    def file_response(self, *args: Any, **kwargs: Any) -> Response:
+        response: Response = super().file_response(*args, **kwargs)
+        response.headers["Cache-Control"] = "no-cache"
+        return response
+
 
 DESCRIPTION = """
 Semantic search over FHIR R4 patient records and AI-generated summaries.
@@ -40,6 +56,14 @@ def create_app(settings: Settings | None = None, container: Container | None = N
     async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         configure_logging()
         app.state.container = container or build_container(settings)
+        # The embedder is warmed in build_container; this also pages the vector index into
+        # memory, so the first user query is as fast as the rest (it was ~1 s cold).
+        try:
+            app.state.container.search.search("warm-up")
+        except Exception as exc:  # an optimisation only: never block start-up on it
+            logger.warning(
+                "search warm-up failed (%s); first query may be slower", type(exc).__name__
+            )
         logger.info(
             "ready: %d patients, %d indexed entries",
             app.state.container.repo.count()["patients"],
@@ -65,7 +89,9 @@ def create_app(settings: Settings | None = None, container: Container | None = N
 
     if settings.frontend_dir.is_dir():
         # Mounted last so API routes take precedence; html=True serves index.html at "/".
-        app.mount("/", StaticFiles(directory=settings.frontend_dir, html=True), name="ui")
+        app.mount(
+            "/", RevalidatingStaticFiles(directory=settings.frontend_dir, html=True), name="ui"
+        )
     else:
         logger.warning("frontend directory %s not found; serving API only", settings.frontend_dir)
     return app

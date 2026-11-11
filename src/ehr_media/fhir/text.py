@@ -7,11 +7,13 @@ from collections.abc import Sequence
 
 from ehr_media.ingestion.models import LabFlag, LabResult
 
-_SECTION_LABEL = re.compile(r"^[A-Z][A-Z0-9 /&-]{2,40}:", re.MULTILINE)
+# A new section starts at any line beginning with a capitalised "Label:" - upper-case headings
+# ("FINDINGS:") and title-case sign-off lines ("Radiologist: Dr. X", "Attending: Dr. Y") alike.
+_SECTION_LABEL = re.compile(r"^[A-Z][A-Za-z0-9 /&-]{2,40}:", re.MULTILINE)
 
 
 def extract_section(text: str, label: str) -> str | None:
-    """Return the body of ``LABEL: ...`` up to the next ``UPPERCASE LABEL:`` line (or the end)."""
+    """Body of ``LABEL: ...`` up to the next ``Label:`` line (or the end of the text)."""
     match = re.search(rf"^{re.escape(label)}:[ \t]*", text, re.MULTILINE | re.IGNORECASE)
     if match is None:
         return None

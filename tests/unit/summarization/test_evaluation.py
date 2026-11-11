@@ -47,6 +47,14 @@ def test_ungrounded_summary_is_reported_as_a_failure(
     assert any("7.9" in f for f in report.failures)
 
 
+def test_narrative_reads_as_separate_sentences(stored: StoredBundle, cache: SummaryCache) -> None:
+    summary = run(stored, cache, good_summary(chief_concern="Cough and fever"))
+    text = summary.narrative()
+    assert text.startswith("Cough and fever. Diagnoses: Pneumonia (J18.9).")
+    assert "Imaging 2025-03-01: Right lower lobe pneumonia." in text
+    assert ".." not in text  # no doubled full stops where a finding already ended with one
+
+
 def test_empty_input_is_handled(stored: StoredBundle) -> None:
     report = evaluate([])
     assert report.n == 0
