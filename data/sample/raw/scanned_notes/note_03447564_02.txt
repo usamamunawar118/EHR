@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.92 ***
+PATIENT NAME: ABBOTT, FIONA
+MRN: 03447564
+DOB: 07/18/1964    SEX: f
+DATE OF SERVICE: 6/26/24
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E120784
+------------------------------------------------------------
+EXAM: XR  CHEST 2 VIEWS
+DATE OF  EXAM: 2024-06-26
+TECHNIQUE: PA and lateral  views of the chest.
+COMPARISON: None available.
+FINDINGS: Right lower lobe airspace consolidation with air  bronchograms.
+Small right parapneumonic effusion. Heart size is normal. No
+pneumothorax.
+IMPRESSION: Right lower lobe pneumonia with small parapneumonic effusio-
+n.
+Radiologist: Dr. Chen

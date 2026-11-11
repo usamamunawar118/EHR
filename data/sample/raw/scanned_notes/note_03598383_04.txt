@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.86 ***
+PATIENT NAME: SANDOVAL, ADAM
+MRN: 03598383
+DOB: 02/25/1982    SEX: M
+DATE OF SERVICE: 2024-10-25
+DOCUMENT TYPE: DISCHARGE SUMMARY
+ENCOUNTER: E101159
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION  DATE: 2024-10-22
+DISCHARGE DATE: 2024-10-25
+ADMITTING COMPLAINT: Worsening leg swelling and  difficulty breathing
+when lying  flat
+DISCHARGE DIAGNOSES: 1. Acute on chronic  systolic heart failure (I50.23)
+HOSPITAL  COURSE: Diuresed 5 L with IV furosemide. Weight down 5  kg.
+Transitioned to  oral torsemide. Education on  sodium  and fluid
+restriction.
+DISCHARGE MEDICATIONS: Torsemide  40 mg daily; carvedilol 12.5 mg twice
+daily; sacubitril-valsartan.
+FOLLOW-UP: Primary care in 1-2  weeks. Return precautions reviewed with
+patient.

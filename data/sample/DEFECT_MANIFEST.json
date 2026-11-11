@@ -1,0 +1,231 @@
+{
+  "synthetic": true,
+  "seed": 20250416,
+  "totals": {
+    "patients": 64,
+    "json_documents": 122,
+    "txt_documents": 81,
+    "lab_rows": 360,
+    "seeded_defects": 35
+  },
+  "expected": [
+    {
+      "rule": "DOB_MISSING",
+      "mrn": "02890725",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "DOB_MISSING",
+      "mrn": "06953124",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "DOB_MISSING",
+      "mrn": "05523248",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "DOB_IMPLAUSIBLE",
+      "mrn": "08694547",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "GENDER_UNMAPPED",
+      "mrn": "01274643",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "GENDER_UNMAPPED",
+      "mrn": "06710415",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "DATE_IMPUTED",
+      "mrn": "01466969",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DATE_IMPUTED",
+      "mrn": "02906031",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DATE_IMPUTED",
+      "mrn": "03857206",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "MISSING_DOCUMENT_DATE",
+      "mrn": "00444456",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "MISSING_DOCUMENT_DATE",
+      "mrn": "08111374",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "EMPTY_TEXT",
+      "mrn": "05079540",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "07452175",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "08276673",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "06384202",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "03874329",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_NEAR",
+      "mrn": "09085751",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_NEAR",
+      "mrn": "00640253",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_NEAR",
+      "mrn": "06564150",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_NEAR",
+      "mrn": "09321613",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_NEAR",
+      "mrn": "06912272",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "01774272",
+      "record_type": "lab",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "00378409",
+      "record_type": "lab",
+      "detail": ""
+    },
+    {
+      "rule": "DUPLICATE_EXACT",
+      "mrn": "00728682",
+      "record_type": "lab",
+      "detail": ""
+    },
+    {
+      "rule": "MRN_OCR_CORRECTION",
+      "mrn": "00070905",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "MRN_OCR_CORRECTION",
+      "mrn": "00741413",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "MRN_OCR_CORRECTION",
+      "mrn": "02645236",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DOC_KIND_INFERRED",
+      "mrn": "02409109",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "DOC_KIND_INFERRED",
+      "mrn": "04451583",
+      "record_type": "document",
+      "detail": ""
+    },
+    {
+      "rule": "IDENTIFIER_CONFLICT",
+      "mrn": "03447564",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "IDENTIFIER_CONFLICT",
+      "mrn": "01808010",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "POSSIBLE_DUPLICATE_PATIENT",
+      "mrn": "05421138",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "POSSIBLE_DUPLICATE_PATIENT",
+      "mrn": "00170608",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "POSSIBLE_DUPLICATE_PATIENT",
+      "mrn": "05481652",
+      "record_type": "patient",
+      "detail": ""
+    },
+    {
+      "rule": "POSSIBLE_DUPLICATE_PATIENT",
+      "mrn": "06276801",
+      "record_type": "patient",
+      "detail": ""
+    }
+  ],
+  "expected_min_counts": {
+    "DATE_FORMAT": 20,
+    "AMBIGUOUS_DATE": 5,
+    "MRN_FORMAT": 10,
+    "GENDER_CODE": 20,
+    "LAB_FLAG_DERIVED": 1,
+    "TEXT_NORMALIZED": 5
+  }
+}

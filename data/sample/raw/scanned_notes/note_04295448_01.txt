@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.89 ***
+PATIENT NAME: JANKOWSKI, VICTOR
+MRN: 04295448
+DOB: 11/11/1936    SEX: m
+DATE OF SERVICE: 07/18/2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E719741
+------------------------------------------------------------
+CHIEF  COMPLAINT: Fever, flank  pain and burning with urination
+HPI: 87-year-old male  with chills, rigors  and costovertebral  angle
+tenderness after several  days of urinary symptoms.
+VITALS: BP  123/95 mmHg, HR 114 bpm, Temp  101.1 F, SpO2 99%
+ASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.
+PLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures
+pending. CT abdomen and  pelvis to  exclude obstruction or abscess.
+MEDICATIONS: Ciprofloxacin 500 mg  twice daily for  7 days.
+Attending: Dr. Haddad, note dated 2024-07-18.

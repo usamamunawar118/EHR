@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: DVORAK, LUIS
+MRN: 03560149
+DOB: 09/17/1960    SEX: Male
+DATE OF SERVICE: 20241113
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E555730
+------------------------------------------------------------
+EXAM: XR WRIST LEFT 3  VIEWS
+DATE  OF  EXAM: 2024-11-13
+TECHNIQUE: PA, lateral and oblique views  of  the left wrist.
+COMPARISON: No prior studies  for comparison.
+FINDINGS: Transverse fracture  of the distal radial metaphysis with
+dorsal angulation  and mild impaction. No intra-articular extension.
+Ulnar styloid intact.
+IMPRESSION: Acute distal radius  fracture with dorsal angulation.
+Radiologist: Dr. Chen

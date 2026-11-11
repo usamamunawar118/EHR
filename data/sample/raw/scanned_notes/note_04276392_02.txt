@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.91 ***
+PATIENT NAME: OKAFOR, CARLOS
+MRN: 04276392
+DOB: 07/18/1937    SEX: MALE
+DATE OF SERVICE: November 30, 2024
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E292542
+------------------------------------------------------------
+EXAM: XR CHEST 2 VIEWS
+DATE OF EXAM: 2024-11-30
+TECHNIQUE: PA and lateral views  of the chest.
+COMPARISON: None available.
+FINDINGS: Right lower lobe  airspace  consolidation with  air bronchograms.
+Small right parapneumonic  effusion. Heart size is normal. No
+pneumothorax.
+IMPRESSION: Right lower lobe pneumonia with small parapneumonic
+effusion.
+Radiologist: Dr. Novak

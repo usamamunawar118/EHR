@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.94 ***
+PATIENT NAME: ABBOTT, FIONA
+MRN: 03447564
+DOB: 07/18/1964    SEX: Female
+DATE OF SERVICE: 20240720
+DOCUMENT TYPE: PROGRESS_NOTE
+ENCOUNTER: E927709
+------------------------------------------------------------
+CHIEF  COMPLAINT: Cough, fever  and shortness of breath
+HPI: 60-year-old  female returning for follow-up of  cough, fever  and
+shortness of breath. Mild residual symptoms.
+VITALS: BP 119/75 mmHg, HR 93  bpm, Temp 100.2 F, SpO2  89%
+ASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with
+mild hypoxemia (R09.02).
+PLAN: Start ceftriaxone and azithromycin. Supplemental oxygen  to  keep
+SpO2 above 92%. Repeat  chest  X-ray in 6 weeks to  document resolution.
+MEDICATIONS: Amoxicillin-clavulanate  875 mg twice daily  for 5  days;
+acetaminophen as needed.
+Attending: Dr. Moreno, note  dated 2024-07-20.

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.96 ***
+PATIENT NAME: GALLAGHER, SVEN
+MRN: 06276801
+DOB: 08/11/1946    SEX: Male
+DATE OF SERVICE: 20241213
+DOCUMENT TYPE: PROGRESS_NOTE
+ENCOUNTER: E871046
+------------------------------------------------------------
+CHIEF COMPLAINT: Nephrology follow-up for chronic kidney  disease
+HPI: 78-year-old male with  chronic kidney disease and hypertension, no
+new  complaints, mild fatigue.
+VITALS: BP 136/73  mmHg, HR 96 bpm, Temp  98.8 F, SpO2  97%
+ASSESSMENT: Chronic kidney  disease  stage 3b (N18.32) with hyperkalemia
+(E87.5).
+PLAN: Dietary potassium restriction. Start  patiromer. Avoid  NSAIDs.
+Repeat  renal panel in 4 weeks. Renal ultrasound.
+MEDICATIONS: Patiromer  8.4 g daily; amlodipine 5  mg daily.
+Attending: Dr. Chen, note dated 2024-12-13.

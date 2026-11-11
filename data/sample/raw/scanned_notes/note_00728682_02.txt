@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.85 ***
+PATIENT NAME: UNDERHILL, BORIS
+MRN: 00728682
+DOB: 08/14/1971    SEX: 1
+DATE OF SERVICE: 2025-01-31
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E961450
+------------------------------------------------------------
+CHIEF  COMPLAINT: Diabetes follow-up with elevated home glucose readings
+HPI: 53-year-old male returning for follow-up of diabetes  follow-up  with
+elevated home glucose readings. Mild  residual symptoms.
+VITALS: BP 110/84  mmHg, HR  63 bpm, Temp  99.2 F, SpO2 98%
+ASSESSMENT: Type  2  diabetes mellitus with hyperglycemia (E11.65). HbA1c
+above goal.
+PLAN: Increase  metformin to 1000  mg twice daily, add  empagliflozin 10  mg
+daily. Diabetic foot and eye  examinations. Dietitian  referral. Recheck
+HbA1c in  3 months.
+MEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg  daily.
+Attending: Dr. Patel, note dated 2025-01-31.

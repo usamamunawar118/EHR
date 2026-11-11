@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.84 ***
+PATIENT NAME: JANKOWSKI, VICTOR
+MRN: 04295448
+DOB: 11/11/1936    SEX: M
+DATE OF SERVICE: July 24, 2024
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E719741
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-07-18
+DISCHARGE  DATE: 2024-07-24
+ADMITTING COMPLAINT: Fever, flank pain  and  burning with urination
+DISCHARGE  DIAGNOSES: 1. Acute pyelonephritis (N10)
+HOSPITAL COURSE: Fever resolved  within 48 hours on IV ceftriaxone.
+Cultures grew  E. coli, sensitive to ciprofloxacin. Transitioned to oral
+therapy.
+DISCHARGE  MEDICATIONS: Ciprofloxacin 500  mg  twice daily for 7 days.
+FOLLOW-UP: Primary care  in  1-2  weeks. Return  precautions  reviewed  with
+patient.

@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.92 ***
+PATIENT NAME: SANDOVAL, ADAM
+MRN: 03598383
+DOB: 02/25/1982    SEX: male
+DATE OF SERVICE: 10/23/2024
+DOCUMENT TYPE: XR REPORT
+ENCOUNTER: E101159
+------------------------------------------------------------
+EXAM: ECHOCARDIOGRAM  TRANSTHORACIC
+DATE  OF EXAM: 2024-10-23
+TECHNIQUE: Complete  transthoracic  echocardiogram with  Doppler.
+COMPARISON: None available.
+FINDINGS: Left ventricular  ejection fraction  approximately 30% with
+global  hypokinesis. Moderate functional mitral regurgitation. Left
+atrium moderately dilated.
+IMPRESSION: Reduced left ventricular systolic function, LVEF 30%.
+Radiologist: Dr. Moreno

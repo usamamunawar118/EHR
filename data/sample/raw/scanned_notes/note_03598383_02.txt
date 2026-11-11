@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.92 ***
+PATIENT NAME: SANDOVAL, ADAM
+MRN: 03598383
+DOB: 02/25/1982    SEX: M
+DATE OF SERVICE: 20241022
+DOCUMENT TYPE: XR REPORT
+ENCOUNTER: E101159
+------------------------------------------------------------
+EXAM: XR CHEST 1 VIEW  PORTABLE
+DATE OF EXAM: 2024-10-22
+TECHNIQUE: Portable  AP view of the  chest.
+COMPARISON: None available.
+FINDINGS: Cardiomegaly with pulmonary  vascular congestion and
+interstitial edema. Small bilateral  pleural  effusions.
+IMPRESSION: Findings  consistent with congestive heart failure.
+Radiologist: Dr. Patel

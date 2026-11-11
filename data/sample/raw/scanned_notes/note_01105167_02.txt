@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.91 ***
+PATIENT NAME: LINDQVIST, KIRA
+MRN: 01105167
+DOB: 06/26/1977    SEX: Female
+DATE OF SERVICE: 19-May-2024
+DOCUMENT TYPE: XR REPORT
+ENCOUNTER: E947876
+------------------------------------------------------------
+EXAM: ECHOCARDIOGRAM TRANSTHORACIC
+DATE OF EXAM: 2024-05-19
+TECHNIQUE: Complete  transthoracic  echocardiogram with Doppler.
+COMPARISON: None available.
+FINDINGS: Left  ventricular ejection fraction 55%. Left atrium is
+moderately enlarged. No significant valvular  stenosis or regurgitation.
+IMPRESSION: Preserved LVEF with left atrial enlargement.
+Radiologist: Dr. Chen

@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.93 ***
+PATIENT NAME: DVORAK, OMAR
+MRN: 00170608
+DOB: 04/08/1963    SEX: M
+DATE OF SERVICE: 07-Jul-2024
+DOCUMENT TYPE: RAD
+ENCOUNTER: E736496
+------------------------------------------------------------
+EXAM: ECHOCARDIOGRAM  TRANSTHORACIC
+DATE OF EXAM: 2024-07-07
+TECHNIQUE: Complete transthoracic echocardiogram with  Doppler.
+COMPARISON: No  prior studies for comparison.
+FINDINGS: Left ventricular ejection fraction approximately 30% with
+global hypokinesis. Moderate functional mitral regurgitation. Left
+atrium moderately  dilated.
+IMPRESSION: Reduced left  ventricular systolic function, LVEF 30%.
+Radiologist: Dr. Lindgren

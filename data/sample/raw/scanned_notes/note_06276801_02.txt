@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: GALLAGHER, SVEN
+MRN: 06276801
+DOB: 08/11/1946    SEX: m
+DATE OF SERVICE: December 13, 2024
+DOCUMENT TYPE: IMAGING REPORT
+ENCOUNTER: E871046
+------------------------------------------------------------
+EXAM: US RETROPERITONEUM  RENAL
+DATE OF EXAM: 2024-12-13
+TECHNIQUE: Real-time grayscale and Doppler  ultrasound of both  kidneys.
+COMPARISON: None available.
+FINDINGS: Both kidneys are  echogenic with reduced cortical  thickness. No
+hydronephrosis, calculi  or  focal mass.
+IMPRESSION: Chronic medical  renal disease  without  obstruction.
+Radiologist: Dr. Patel

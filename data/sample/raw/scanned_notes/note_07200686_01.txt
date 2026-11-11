@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.94 ***
+PATIENT NAME: ERIKSEN, PAVEL
+MRN: 07200686
+DOB: 03/28/1994    SEX: M
+DATE OF SERVICE: 06/18/2024
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E418330
+------------------------------------------------------------
+CHIEF COMPLAINT: Severe headache with sensitivity to light
+HPI: 30-year-old  male with  sudden onset throbbing right-sided headache,
+nausea and photophobia for  10 hours. History of similar episodes.
+VITALS: BP 150/66  mmHg, HR 103  bpm, Temp 98.2 F, SpO2 99%
+ASSESSMENT: Migraine without aura (G43.009). No red-flag features  on
+examination.
+PLAN: IV  fluids, metoclopramide and  ketorolac with  improvement. CT head
+to exclude acute  pathology. Outpatient neurology follow-up.
+MEDICATIONS: Sumatriptan 50  mg as  needed; ondansetron 4 mg as needed.
+Attending: Dr. Moreno, note dated 2024-06-18.

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.96 ***
+PATIENT NAME: TANAKA, TESS
+MRN: 00518395
+DOB: 12/05/1952    SEX: 2
+DATE OF SERVICE: 11/08/2024
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E988432
+------------------------------------------------------------
+CHIEF  COMPLAINT: Nephrology  follow-up for chronic kidney disease
+HPI: 71-year-old  female with  chronic kidney  disease and hypertension, no
+new complaints, mild  fatigue.
+VITALS: BP  156/78 mmHg, HR 97 bpm, Temp 99.1 F, SpO2  97%
+ASSESSMENT: Chronic kidney disease  stage 3b (N18.32) with hyperkalemia
+(E87.5).
+PLAN: Dietary  potassium restriction. Start patiromer. Avoid  NSAIDs.
+Repeat renal panel in 4 weeks. Renal ultrasound.
+MEDICATIONS: Patiromer 8.4 g daily; amlodipine  5 mg daily.
+Attending: Dr. Rivera, note dated 2024-11-08.

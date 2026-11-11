@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.92 ***
+PATIENT NAME: YILMAZ, SVEN
+MRN: 03666118
+DOB: 10/16/1970    SEX: male
+DATE OF SERVICE: 07/03/2024
+DOCUMENT TYPE: PN
+ENCOUNTER: E359597
+------------------------------------------------------------
+CHIEF  COMPLAINT: Diabetes follow-up with  elevated  home glucose readings
+HPI: 53-year-old male returning for follow-up of diabetes follow-up with
+elevated home glucose readings. Symptoms improving.
+VITALS: BP  113/94  mmHg, HR 85 bpm, Temp  98.8 F, SpO2 97%
+ASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c
+above goal.
+PLAN: Increase metformin to  1000  mg twice daily, add empagliflozin 10 mg
+daily. Diabetic foot and eye examinations. Dietitian referral. Recheck
+HbA1c in 3 months.
+MEDICATIONS: Metformin  1000 mg twice daily; empagliflozin 10 mg daily.
+Attending: Dr. Rivera, note  dated 2024-07-03.

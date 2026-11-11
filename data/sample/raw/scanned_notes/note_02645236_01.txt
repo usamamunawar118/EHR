@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.84 ***
+PATIENT NAME: ERIKSEN, KOFI
+MRN: O2645236
+DOB: 08/28/1967    SEX: male
+DATE OF SERVICE: 09/12/2024
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E944434
+------------------------------------------------------------
+CHIEF COMPLAINT: Left wrist  pain after  a fall
+HPI: 57-year-old  male slipped on ice  and fell on an outstretched left
+hand. Immediate pain, swelling and deformity of the  wrist.
+VITALS: BP  120/64 mmHg, HR 112 bpm, Temp 98.5 F, SpO2 97%
+ASSESSMENT: Closed distal  radius fracture, left (S52.502A),
+neurovascularly intact.
+PLAN: Reduction under hematoma block and sugar-tong splint. Analgesia.
+Orthopedic clinic follow-up in 1 week. Elevate  and ice.
+MEDICATIONS: Ibuprofen  600 mg every 8 hours as  needed; acetaminophen.
+Attending: Dr. Patel, note  dated 2024-09-12.

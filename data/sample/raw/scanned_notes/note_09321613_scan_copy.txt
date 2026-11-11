@@ -1,0 +1,20 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.82 ***
+PATIENT NAME: WHITFIELD, ADAM
+MRN: 09321613
+DOB: 07/31/1979    SEX: m
+DATE OF SERVICE: 2024-04-15
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E988149
+------------------------------------------------------------
+CHIEF COMPLAINT: Increased  shortness of  breath  and wheezing
+HPI: 44-year-o1d male with COPD and a 40 pack-year smoking  history, 3
+days of increased sputum, wheeze and  dyspnea  at rest.
+VITALS: BP 164/69 mmHg, HR 79  bpm, Temp 99.7 F, SpO2 92%
+ASSESSMENT: COPD with acute  exacerbation (J44.1), no pneumonia  on
+imaging.
+PLAN: Nebulized albuterol-ipratropium, prednisone 40 mg  for 5 days, dox-
+ycyc1ine. Smoking cessation counseling. Pulmonary  rehabilitation referr-
+al.
+MEDICATIONS: Prednisone 40  mg daily  for 5 days; tiotropium  inhaler; alb-
+uterol  as needed.
+Attending: Dr. Okonkwo, note  dated 2024-04-15.

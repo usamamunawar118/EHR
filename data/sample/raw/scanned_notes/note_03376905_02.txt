@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.90 ***
+PATIENT NAME: QUINTERO, JONAS
+MRN: 03376905
+DOB: 07/12/1953    SEX: M
+DATE OF SERVICE: 2025-02-09
+DOCUMENT TYPE: PN
+ENCOUNTER: E840002
+------------------------------------------------------------
+CHIEF COMPLAINT: Fatigue and shortness  of  breath  on  exertion
+HPI: 71-year-old  male returning for follow-up of fatigue and  shortness
+of breath on exertion. Symptoms stable.
+VITALS: BP 114/76 mmHg, HR 73 bpm, Temp 99.2 F, SpO2 99%
+ASSESSMENT: Iron  deficiency anemia (D50.9). Source evaluation pending.
+PLAN: Start oral ferrous sulfate 325 mg daily. Repeat  CBC  and ferritin
+in 8 weeks. Gastroenterology referral for endoscopic evaluation.
+MEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.
+Attending: Dr. Haddad, note dated 2025-02-09.

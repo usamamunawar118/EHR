@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: LINDQVIST, FELIX
+MRN: 04612122
+DOB: 03/04/1955    SEX: m
+DATE OF SERVICE: 3/20/25
+DOCUMENT TYPE: PN
+ENCOUNTER: E611321
+------------------------------------------------------------
+CHIEF COMPLAINT: Diabetes follow-up with elevated  home glucose readings
+HPI: 70-year-old male returning for follow-up  of  diabetes follow-up  with
+elevated home glucose  readings. Symptoms improving.
+VITALS: BP 129/96 mmHg, HR 112 bpm, Temp 99.0 F, SpO2 98%
+ASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c
+above goal.
+PLAN: Increase metformin  to 1000 mg twice daily, add empagliflozin 10 mg
+daily. Diabetic foot and eye examinations. Dietitian referral. Recheck
+HbA1c in 3  months.
+MEDICATIONS: Metformin 1000  mg twice daily; empagliflozin 10 mg daily.
+Attending: Dr. Haddad, note dated 2025-03-20.

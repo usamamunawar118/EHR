@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.89 ***
+PATIENT NAME: DVORAK, LUIS
+MRN: 03560149
+DOB: 09/17/1960    SEX: male
+DATE OF SERVICE: 2024-11-13
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E555730
+------------------------------------------------------------
+CHIEF COMPLAINT: Left wrist pain after a  fall
+HPI: 64-year-old  male  fell from standing height  onto  left hand, unable
+to  grip, wrist  swollen and tender over the distal  radius.
+VITALS: BP 125/98 mmHg, HR 66 bpm, Temp 99.0 F, SpO2 99%
+ASSESSMENT: Closed distal  radius  fracture, left (S52.502A),
+neurovascularly  intact.
+PLAN: Reduction under hematoma block and sugar-tong  splint. Analgesia.
+Orthopedic clinic follow-up in 1 week. Elevate and  ice.
+MEDICATIONS: Ibuprofen 600 mg every 8  hours as needed; acetaminophen.
+Attending: Dr. Chen, note dated  2024-11-13.

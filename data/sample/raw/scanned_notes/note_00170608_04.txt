@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.88 ***
+PATIENT NAME: DVORAK, OMAR
+MRN: 00170608
+DOB: 04/08/1963    SEX: m
+DATE OF SERVICE: 20240711
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E736496
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-07-06
+DISCHARGE DATE: 2024-07-11
+ADMITTING  COMPLAINT: Worsening leg swelling  and difficulty breathing
+when lying flat
+DISCHARGE DIAGNOSES: 1. Acute on  chronic systolic heart failure (I50.23)
+HOSPITAL COURSE: Diuresed 5  L with IV furosemide. Weight  down 5 kg.
+Transitioned to oral torsemide. Education  on sodium and fluid
+restriction.
+DISCHARGE MEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice
+daily; sacubitril-valsartan.
+FOLLOW-UP: Primary care  in 1-2 weeks. Return precautions reviewed with
+patient.

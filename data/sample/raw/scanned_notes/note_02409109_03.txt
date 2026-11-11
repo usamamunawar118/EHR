@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: ERIKSEN, GAVIN
+MRN: 02409109
+DOB: 04/19/1989    SEX: MALE
+DATE OF SERVICE: 09/26/2024
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E299710
+------------------------------------------------------------
+DISCHARGE  SUMMARY
+ADMISSION  DATE: 2024-09-22
+DISCHARGE DATE: 2024-09-26
+ADMITTING  COMPLAINT: Increased shortness of breath and  wheezing
+DISCHARGE  DIAGNOSES: 1. COPD with acute exacerbation (J44.1)
+HOSPITAL  COURSE: Improved with bronchodilators and  steroids, discharged
+on oral prednisone taper and home nebulizer.
+DISCHARGE MEDICATIONS: Prednisone  40  mg daily for 5 days; tiotropium
+inhaler; albuterol  as needed.
+FOLLOW-UP: Primary care in 1-2 weeks. Return  precautions reviewed with
+patient.

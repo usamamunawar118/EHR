@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.91 ***
+PATIENT NAME: RASMUSSEN, IVAN
+MRN: 07452175
+DOB: 10/02/1978    SEX: Male
+DATE OF SERVICE: 2024-10-31
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E571517
+------------------------------------------------------------
+EXAM: XR CHEST 1 VIEW PORTABLE
+DATE OF EXAM: 2024-10-31
+TECHNIQUE: Portable AP view  of the chest.
+COMPARISON: None available.
+FINDINGS: Cardiomegaly with pulmonary vascular  congestion and
+interstitial  edema. Small bilateral pleural effusions.
+IMPRESSION: Findings consistent with  congestive  heart failure.
+Radiologist: Dr. Patel

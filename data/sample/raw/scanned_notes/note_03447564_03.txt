@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: ABBOTT, FIONA
+MRN: 03447564
+DOB: 07/18/1964    SEX: female
+DATE OF SERVICE: 2024-06-30
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E120784
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-06-26
+DISCHARGE DATE: 2024-06-30
+ADMITTING COMPLAINT: Cough, fever and shortness of breath
+DISCHARGE DIAGNOSES: 1. Community-acquired pneumonia (J18.9); 2.
+Hypoxemia (R09.02)
+HOSPITAL COURSE: Treated  with IV ceftriaxone  and  azithromycin, transiti-
+oned to oral  therapy on hospital  day 3. Oxygen  weaned  to room air.
+Afebrile  for 48 hours before discharge.
+DISCHARGE MEDICATIONS: Amoxicillin-clavulanate 875 mg  twice  daily for 5
+days; acetaminophen  as needed.
+FOLLOW-UP: Primary care in 1-2  weeks. Return precautions reviewed  with
+patient.

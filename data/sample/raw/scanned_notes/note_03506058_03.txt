@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: QUINTERO, LENA
+MRN: 03506058
+DOB: 11/25/1978    SEX: F
+DATE OF SERVICE: 08/10/2024
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E304064
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION  DATE: 2024-08-05
+DISCHARGE  DATE: 2024-08-10
+ADMITTING COMPLAINT: Cough, fever  and shortness of breath
+DISCHARGE DIAGNOSES: 1. Community-acquired  pneumonia (J18.9); 2. Hypoxe-
+mia (R09.02)
+HOSPITAL COURSE: Treated  with IV  ceftriaxone and  azithromycin,
+transitioned to  oral therapy  on hospital day  3. Oxygen weaned  to room
+air. Afebrile  for  48  hours before discharge.
+DISCHARGE MEDICATIONS: Amoxicillin-clavulanate  875 mg twice daily for 5
+days; acetaminophen as needed.
+FOLLOW-UP: Primary care in  1-2  weeks. Return precautions  reviewed with
+patient.

@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.87 ***
+PATIENT NAME: DVORAK, OMAR
+MRN: 00170608
+DOB: 04/08/1963    SEX: M
+DATE OF SERVICE: 7/6/24
+DOCUMENT TYPE: PN
+ENCOUNTER: E736496
+------------------------------------------------------------
+CHIEF  COMPLAINT: Worsening leg swelling  and difficulty breathing when
+lying flat
+HPI: 61-year-old male with ischemic cardiomyopathy and increasing
+exertional  dyspnea, nocturnal cough  and bilateral ankle swelling.
+VITALS: BP 157/85 mmHg, HR 70 bpm, Temp 98.7 F, SpO2 99%
+ASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume
+overloaded.
+PLAN: IV furosemide with strict intake and output. Daily  weights.
+Continue guideline-directed  therapy. Cardiology consult and  echocardiog-
+ram.
+MEDICATIONS: Torsemide  40  mg daily; carvedilol 12.5 mg twice daily;
+sacubitril-valsartan.
+Attending: Dr. Okonkwo, note dated 2024-07-06.

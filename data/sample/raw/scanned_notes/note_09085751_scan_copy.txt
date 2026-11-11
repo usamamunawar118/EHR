@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.90 ***
+PATIENT NAME: KOWALCZYK, MAREK
+MRN: 09085751
+DOB: 06/28/1958    SEX: M
+DATE OF SERVICE: 2024-07-30
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E334546
+------------------------------------------------------------
+CHIEF COMPLAINT: Fatigue  and shortness  of  breath  on exertion
+HPI: 66-year-old male with  progressive tiredness, britt1e nails and
+pica. No melena or hematochezia reported.
+VITALS: BP 117/71 mmHg, HR  92  bpm, Temp 99.1 F, SpO2  99%
+ASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.
+PLAN: Start oral  ferrous su1fate 325 mg  daily. Repeat CBC and ferritin
+in 8  weeks. Gastroenterology  referral for endoscopic evaluation.
+MEDICATIONS: Ferrous sulfate 325  mg daily with vitamin  C.
+Attending: Dr. Patel, note  dated 2024-07-30.

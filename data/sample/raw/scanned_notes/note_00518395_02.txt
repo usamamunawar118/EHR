@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: TANAKA, TESS
+MRN: 00518395
+DOB: 12/05/1952    SEX: F
+DATE OF SERVICE: 11/08/2024
+DOCUMENT TYPE: XR REPORT
+ENCOUNTER: E988432
+------------------------------------------------------------
+EXAM: US  RETROPERITONEUM RENAL
+DATE OF EXAM: 2024-11-08
+TECHNIQUE: Real-time grayscale and  Doppler ultrasound of both kidneys.
+COMPARISON: None available.
+FINDINGS: Both kidneys are  echogenic with  reduced cortical thickness. No
+hydronephrosis, calculi or  focal  mass.
+IMPRESSION: Chronic medical  renal disease  without obstruction.
+Radiologist: Dr. Patel

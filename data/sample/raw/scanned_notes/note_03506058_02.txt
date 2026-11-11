@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.92 ***
+PATIENT NAME: QUINTERO, LENA
+MRN: 03506058
+DOB: 11/25/1978    SEX: 2
+DATE OF SERVICE: 20240805
+DOCUMENT TYPE: RAD
+ENCOUNTER: E304064
+------------------------------------------------------------
+EXAM: XR CHEST 2 VIEWS
+DATE OF EXAM: 2024-08-05
+TECHNIQUE: PA  and  lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Right lower lobe airspace  consolidation with air bronchograms.
+Small right parapneumonic effusion. Heart size is normal. No
+pneumothorax.
+IMPRESSION: Right lower lobe pneumonia with small  parapneumonic effusio-
+n.
+Radiologist: Dr. Lindgren

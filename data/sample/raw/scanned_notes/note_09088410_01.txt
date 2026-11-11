@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: QUINTERO, ALMA
+MRN: 09088410
+DOB: 08/24/1975    SEX: F
+DATE OF SERVICE: 2024-10-30
+DOCUMENT TYPE: PROGRESS_NOTE
+ENCOUNTER: E960295
+------------------------------------------------------------
+CHIEF COMPLAINT: Worsening leg swelling  and difficulty  breathing when
+lying  flat
+HPI: 49-year-old  female with ischemic cardiomyopathy  and  increasing
+exertional  dyspnea, nocturnal cough and bilateral  ankle swelling.
+VITALS: BP 128/66 mmHg, HR 97  bpm, Temp 98.9 F, SpO2 97%
+ASSESSMENT: Acute  on chronic systolic heart failure (I50.23), volume
+overloaded.
+PLAN: IV furosemide with strict intake and output. Daily weights.
+Continue guideline-directed therapy. Cardiology  consult and
+echocardiogram.
+MEDICATIONS: Torsemide  40 mg daily; carvedilol  12.5 mg twice daily;
+sacubitril-valsartan.
+Attending: Dr. Chen, note  dated 2024-10-30.

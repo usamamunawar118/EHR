@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.89 ***
+PATIENT NAME: HADDAD, JONAS
+MRN: 00070905
+DOB: 12/25/1937    SEX: male
+DATE OF SERVICE: 2024-06-09
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E961993
+------------------------------------------------------------
+EXAM: US  RETROPERITONEUM RENAL
+DATE OF EXAM: 2024-06-09
+TECHNIQUE: Real-time grayscale and Doppler ultrasound of both  kidneys.
+COMPARISON: No prior studies  for comparison.
+FINDINGS: Both kidneys are echogenic with  reduced cortical thickness. No
+hydronephrosis, calculi or focal mass.
+IMPRESSION: Chronic medical renal disease  without  obstruction.
+Radiologist: Dr. Haddad

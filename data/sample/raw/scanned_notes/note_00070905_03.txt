@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.96 ***
+PATIENT NAME: HADDAD, JONAS
+MRN: 00070905
+DOB: 12/25/1937    SEX: M
+DATE OF SERVICE: 8/24/24
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E899686
+------------------------------------------------------------
+CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease
+HPI: 86-year-old male  returning for follow-up of nephrology follow-up
+for chronic kidney  disease. Symptoms stable.
+VITALS: BP  116/81 mmHg, HR 83  bpm, Temp  98.4 F, SpO2 97%
+ASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia
+(E87.5).
+PLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs.
+Repeat renal  panel in  4 weeks. Renal  ultrasound.
+MEDICATIONS: Patiromer 8.4 g daily; amlodipine  5 mg  daily.
+Attending: Dr. Patel, note  dated 2024-08-24.

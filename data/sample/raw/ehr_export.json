@@ -1,0 +1,2044 @@
+{
+  "_synthetic_notice": "SYNTHETIC DATA - fictional people, not real patient records.",
+  "export_meta": {
+    "system": "SYNTHETIC-EHR-EXPORT",
+    "schema_version": "1"
+  },
+  "patients": [
+    {
+      "MedicalRecordNumber": " 03447564 ",
+      "FirstName": "Carlos",
+      "LastName": "Yilmaz",
+      "DateOfBirth": "1944-04-08",
+      "Gender": "1",
+      "Encounters": [
+        {
+          "EncounterID": "E514214",
+          "EncounterType": "inpatient",
+          "AdmitDate": "2024-04-25",
+          "DischargeDate": "05/01/2024",
+          "ChiefComplaint": "Cough, fever and shortness of breath"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D00001",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "04/25/2024",
+          "EncounterID": "E514214",
+          "Content": "CHIEF COMPLAINT: Cough, fever and shortness of breath\nHPI: 80-year-old male with worsening dyspnea and fever for 3 days despite over-the-counter antipyretics.\nVITALS: BP 155/90 mmHg, HR 92 bpm, Temp 101.6 F, SpO2 89%\nASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with mild hypoxemia (R09.02).\nPLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep SpO2 above 92%. Repeat chest X-ray in 6 weeks to document resolution.\nMEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nAttending: Dr. Haddad, note dated 2024-04-25."
+        },
+        {
+          "DocumentID": "D00002",
+          "DocType": "Imaging Report",
+          "ServiceDate": "2024-04-25",
+          "EncounterID": "E514214",
+          "Content": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-04-25\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: None available.\nFINDINGS: Right lower lobe airspace consolidation with air bronchograms. Small right parapneumonic effusion. Heart size is normal. No pneumothorax.\nIMPRESSION: Right lower lobe pneumonia with small parapneumonic effusion.\nRadiologist: Dr. Okonkwo"
+        },
+        {
+          "DocumentID": "D00003",
+          "DocType": "discharge_summary",
+          "ServiceDate": "05/01/2024",
+          "EncounterID": "E514214",
+          "Content": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-04-25\nDISCHARGE DATE: 2024-05-01\nADMITTING COMPLAINT: Cough, fever and shortness of breath\nDISCHARGE DIAGNOSES: 1. Community-acquired pneumonia (J18.9); 2. Hypoxemia (R09.02)\nHOSPITAL COURSE: Treated with IV ceftriaxone and azithromycin, transitioned to oral therapy on hospital day 3. Oxygen weaned to room air. Afebrile for 48 hours before discharge.\nDISCHARGE MEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "MRN": "MRN-01808010",
+      "name": {
+        "family": "Yilmaz",
+        "given": "Gwen"
+      },
+      "dob": "06/10/1972",
+      "sex": "female",
+      "encounters": [
+        {
+          "encounter_id": "E229833",
+          "type": "OP",
+          "start": "06/22/2024",
+          "end": "2024-06-22",
+          "reason": "Diabetes follow-up with elevated home glucose readings"
+        },
+        {
+          "encounter_id": "E576433",
+          "type": "OP",
+          "start": "20240827",
+          "end": "2024-08-27",
+          "reason": "Follow-up: Diabetes follow-up with elevated home glucose readings"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D00101",
+          "type": "PN",
+          "date": "06/22/2024",
+          "encounter_id": "E229833",
+          "text": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 52-year-old female with long-standing type 2 diabetes, missed several metformin doses, home readings trending upward.\nVITALS: BP 112/81 mmHg, HR 69 bpm, Temp 98.6 F, SpO2 96%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Novak, note dated 2024-06-22."
+        },
+        {
+          "doc_id": "D00102",
+          "type": "PN",
+          "date": "08/27/2024",
+          "encounter_id": "E576433",
+          "text": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 52-year-old female returning for follow-up of diabetes follow-up with elevated home glucose readings. Mild residual symptoms.\nVITALS: BP 141/75 mmHg, HR 98 bpm, Temp 99.0 F, SpO2 96%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Lindgren, note dated 2024-08-27."
+        }
+      ]
+    },
+    {
+      "MRN": "mrn 5421138",
+      "name": {
+        "family": "Dvorak",
+        "given": "Omar"
+      },
+      "dob": "1963-04-08",
+      "sex": "male",
+      "encounters": [
+        {
+          "encounter_id": "E166923",
+          "type": "inpatient",
+          "start": "August 29, 2024",
+          "end": "20240901",
+          "reason": "Worsening leg swelling and difficulty breathing when lying flat"
+        },
+        {
+          "encounter_id": "E497696",
+          "type": "ambulatory",
+          "start": "2024-09-19",
+          "end": "2024-09-19",
+          "reason": "Post-discharge follow-up: Worsening leg swelling and difficulty breathing when lying flat"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D00201",
+          "type": "Office Visit Note",
+          "date": "08/29/2024",
+          "encounter_id": "E166923",
+          "text": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 61-year-old male with ischemic cardiomyopathy and increasing exertional dyspnea, nocturnal cough and bilateral ankle swelling.\nVITALS: BP 115/62 mmHg, HR 73 bpm, Temp 99.1 F, SpO2 99%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Haddad, note dated 2024-08-29."
+        },
+        {
+          "doc_id": "D00202",
+          "type": "Radiology Report",
+          "date": "August 29, 2024",
+          "encounter_id": "E166923",
+          "text": "EXAM: XR CHEST 1 VIEW PORTABLE\nDATE OF EXAM: 2024-08-29\nTECHNIQUE: Portable AP view of the chest.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Cardiomegaly with pulmonary vascular congestion and interstitial edema. Small bilateral pleural effusions.\nIMPRESSION: Findings consistent with congestive heart failure.\nRadiologist: Dr. Patel"
+        },
+        {
+          "doc_id": "D00203",
+          "type": "RAD",
+          "date": "2024-08-30",
+          "encounter_id": "E166923",
+          "text": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-08-30\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: None available.\nFINDINGS: Left ventricular ejection fraction approximately 30% with global hypokinesis. Moderate functional mitral regurgitation. Left atrium moderately dilated.\nIMPRESSION: Reduced left ventricular systolic function, LVEF 30%.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "doc_id": "D00204",
+          "type": "Discharge Summary",
+          "date": "09/01/2024",
+          "encounter_id": "E166923",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-08-29\nDISCHARGE DATE: 2024-09-01\nADMITTING COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nDISCHARGE DIAGNOSES: 1. Acute on chronic systolic heart failure (I50.23)\nHOSPITAL COURSE: Diuresed 5 L with IV furosemide. Weight down 5 kg. Transitioned to oral torsemide. Education on sodium and fluid restriction.\nDISCHARGE MEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "doc_id": "D00205",
+          "type": "Progress Note",
+          "date": "09/19/2024",
+          "encounter_id": "E497696",
+          "text": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 61-year-old male returning for follow-up of worsening leg swelling and difficulty breathing when lying flat. Symptoms stable.\nVITALS: BP 139/81 mmHg, HR 75 bpm, Temp 99.3 F, SpO2 97%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Moreno, note dated 2024-09-19."
+        }
+      ]
+    },
+    {
+      "mrn": "05481652",
+      "patient_name": "Gallagher, Sven",
+      "birthDate": "08/11/1946",
+      "gender": "M",
+      "encounters": [
+        {
+          "id": "E901048",
+          "class": "Outpatient",
+          "period_start": "2024-03-23",
+          "period_end": "2024-03-23",
+          "reason": "Nephrology follow-up for chronic kidney disease"
+        },
+        {
+          "id": "E553900",
+          "class": "Outpatient",
+          "period_start": "20240524",
+          "period_end": "5/24/24",
+          "reason": "Follow-up: Nephrology follow-up for chronic kidney disease"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D00302",
+          "documentType": "RAD",
+          "documentDate": "2024-03-23",
+          "encounterId": "E901048",
+          "body": "EXAM: US RETROPERITONEUM RENAL\nDATE OF EXAM: 2024-03-23\nTECHNIQUE: Real-time grayscale and Doppler ultrasound of both kidneys.\nCOMPARISON: None available.\nFINDINGS: Both kidneys are echogenic with reduced cortical thickness. No hydronephrosis, calculi or focal mass.\nIMPRESSION: Chronic medical renal disease without obstruction.\nRadiologist: Dr. Okonkwo"
+        },
+        {
+          "id": "D00303",
+          "documentType": "progress_note",
+          "documentDate": "May 24, 2024",
+          "encounterId": "E553900",
+          "body": "CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease\nHPI: 77-year-old male returning for follow-up of nephrology follow-up for chronic kidney disease. Mild residual symptoms.\nVITALS: BP 137/89 mmHg, HR 69 bpm, Temp 99.1 F, SpO2 96%\nASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia (E87.5).\nPLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs. Repeat renal panel in 4 weeks. Renal ultrasound.\nMEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.\nAttending: Dr. Haddad, note dated 2024-05-24."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "MRN-02890725",
+      "FirstName": "Gwen",
+      "LastName": "Gallagher",
+      "DateOfBirth": "",
+      "Gender": "F",
+      "Encounters": [
+        {
+          "EncounterID": "E644097",
+          "EncounterType": "emergency",
+          "AdmitDate": "26-Nov-2024",
+          "DischargeDate": "26-Nov-2024",
+          "ChiefComplaint": "Severe headache with sensitivity to light"
+        },
+        {
+          "EncounterID": "E348453",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-12-10",
+          "DischargeDate": "20241210",
+          "ChiefComplaint": "Follow-up: Severe headache with sensitivity to light"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D00402",
+          "DocType": "Radiology Report",
+          "ServiceDate": "11/26/2024",
+          "EncounterID": "E644097",
+          "Content": "EXAM: CT HEAD WITHOUT CONTRAST\nDATE OF EXAM: 2024-11-26\nTECHNIQUE: Axial non-contrast CT of the head.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: No acute intracranial hemorrhage, mass effect or large territorial infarct. Ventricles and sulci are normal. Paranasal sinuses are clear.\nIMPRESSION: Negative non-contrast CT of the head.\nRadiologist: Dr. Okonkwo"
+        },
+        {
+          "DocumentID": "D00403",
+          "DocType": "Progress Note",
+          "ServiceDate": "12/10/24",
+          "EncounterID": "E348453",
+          "Content": "CHIEF COMPLAINT: Severe headache with sensitivity to light\nHPI: 25-year-old female returning for follow-up of severe headache with sensitivity to light. Symptoms stable.\nVITALS: BP 157/96 mmHg, HR 68 bpm, Temp 98.2 F, SpO2 97%\nASSESSMENT: Migraine without aura (G43.009). No red-flag features on examination.\nPLAN: IV fluids, metoclopramide and ketorolac with improvement. CT head to exclude acute pathology. Outpatient neurology follow-up.\nMEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg as needed.\nAttending: Dr. Novak, note dated 2024-12-10."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "06953124",
+      "FirstName": "Dana",
+      "LastName": "Whitfield",
+      "DateOfBirth": null,
+      "Gender": "F",
+      "Encounters": [
+        {
+          "EncounterID": "E125828",
+          "EncounterType": "ED",
+          "AdmitDate": "20240330",
+          "DischargeDate": "03/30/2024",
+          "ChiefComplaint": "Left wrist pain after a fall"
+        },
+        {
+          "EncounterID": "E763157",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-04-13",
+          "DischargeDate": "April 13, 2024",
+          "ChiefComplaint": "Follow-up: Left wrist pain after a fall"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D00501",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "20240330",
+          "EncounterID": "E125828",
+          "Content": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 66-year-old female slipped on ice and fell on an outstretched left hand. Immediate pain, swelling and deformity of the wrist.\nVITALS: BP 121/74 mmHg, HR 93 bpm, Temp 98.6 F, SpO2 96%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Okonkwo, note dated 2024-03-30."
+        },
+        {
+          "DocumentID": "D00502",
+          "DocType": "Imaging Report",
+          "ServiceDate": "3/30/24",
+          "EncounterID": "E125828",
+          "Content": "EXAM: XR WRIST LEFT 3 VIEWS\nDATE OF EXAM: 2024-03-30\nTECHNIQUE: PA, lateral and oblique views of the left wrist.\nCOMPARISON: None available.\nFINDINGS: Transverse fracture of the distal radial metaphysis with dorsal angulation and mild impaction. No intra-articular extension. Ulnar styloid intact.\nIMPRESSION: Acute distal radius fracture with dorsal angulation.\nRadiologist: Dr. Haddad"
+        },
+        {
+          "DocumentID": "D00503",
+          "DocType": "Progress Note",
+          "ServiceDate": "2024-04-13",
+          "EncounterID": "E763157",
+          "Content": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 66-year-old female returning for follow-up of left wrist pain after a fall. Symptoms improving.\nVITALS: BP 114/70 mmHg, HR 75 bpm, Temp 99.0 F, SpO2 98%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Lindgren, note dated 2024-04-13."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": " 05523248 ",
+      "FirstName": "Omar",
+      "LastName": "Dvorak",
+      "DateOfBirth": "UNKNOWN",
+      "Gender": "m",
+      "Encounters": [
+        {
+          "EncounterID": "E109806",
+          "EncounterType": "AMB",
+          "AdmitDate": "2024-03-26",
+          "DischargeDate": "20240326",
+          "ChiefComplaint": "Fatigue and shortness of breath on exertion"
+        },
+        {
+          "EncounterID": "E450622",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-06-18",
+          "DischargeDate": "06/18/2024",
+          "ChiefComplaint": "Follow-up: Fatigue and shortness of breath on exertion"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D00601",
+          "DocType": "progress_note",
+          "ServiceDate": "03/26/2024",
+          "EncounterID": "E109806",
+          "Content": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 23-year-old male with progressive tiredness, brittle nails and pica. No melena or hematochezia reported.\nVITALS: BP 145/89 mmHg, HR 63 bpm, Temp 98.4 F, SpO2 99%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Novak, note dated 2024-03-26."
+        }
+      ]
+    },
+    {
+      "mrn": "mrn 8694547",
+      "patient_name": "Nakamura, Hana",
+      "birthDate": "2031-05-17",
+      "gender": "2",
+      "encounters": [
+        {
+          "id": "E915569",
+          "class": "IMP",
+          "period_start": "11/04/2024",
+          "period_end": "20241108",
+          "reason": "Fever, flank pain and burning with urination"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D00701",
+          "documentType": "PN",
+          "documentDate": "11/04/2024",
+          "encounterId": "E915569",
+          "body": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 19-year-old female with chills, rigors and costovertebral angle tenderness after several days of urinary symptoms.\nVITALS: BP 116/77 mmHg, HR 111 bpm, Temp 102.0 F, SpO2 96%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Moreno, note dated 2024-11-04."
+        },
+        {
+          "id": "D00702",
+          "documentType": "Radiology Report",
+          "documentDate": "11/04/2024",
+          "encounterId": "E915569",
+          "body": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-11-04\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: None available.\nFINDINGS: Right kidney is enlarged with striated nephrogram and perinephric stranding. No obstructing calculus, hydronephrosis or drainable abscess.\nIMPRESSION: Findings consistent with acute right pyelonephritis.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "id": "D00703",
+          "documentType": "discharge_summary",
+          "documentDate": "20241108",
+          "encounterId": "E915569",
+          "body": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-11-04\nDISCHARGE DATE: 2024-11-08\nADMITTING COMPLAINT: Fever, flank pain and burning with urination\nDISCHARGE DIAGNOSES: 1. Acute pyelonephritis (N10)\nHOSPITAL COURSE: Fever resolved within 48 hours on IV ceftriaxone. Cultures grew E. coli, sensitive to ciprofloxacin. Transitioned to oral therapy.\nDISCHARGE MEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "MRN": " 01466969 ",
+      "name": {
+        "family": "Dvorak",
+        "given": "Fiona"
+      },
+      "dob": "1985-05-27",
+      "sex": "F",
+      "encounters": [
+        {
+          "encounter_id": "E486355",
+          "type": "AMB",
+          "start": "2024-09-30",
+          "end": "2024-09-30",
+          "reason": "Palpitations and irregular heartbeat"
+        },
+        {
+          "encounter_id": "E604927",
+          "type": "ambulatory",
+          "start": "12/04/2024",
+          "end": "December 4, 2024",
+          "reason": "Follow-up: Palpitations and irregular heartbeat"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D00801",
+          "type": "progress_note",
+          "date": null,
+          "encounter_id": "E486355",
+          "text": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 39-year-old female noticing an irregular pulse on a home monitor, mild exertional fatigue.\nVITALS: BP 128/68 mmHg, HR 100 bpm, Temp 98.7 F, SpO2 96%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Chen, note dated 2024-09-30."
+        },
+        {
+          "doc_id": "D00802",
+          "type": "Radiology Report",
+          "date": "9/30/24",
+          "encounter_id": "E486355",
+          "text": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-09-30\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Left ventricular ejection fraction 55%. Left atrium is moderately enlarged. No significant valvular stenosis or regurgitation.\nIMPRESSION: Preserved LVEF with left atrial enlargement.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "doc_id": "D00803",
+          "type": "progress_note",
+          "date": "12/04/2024",
+          "encounter_id": "E604927",
+          "text": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 39-year-old female returning for follow-up of palpitations and irregular heartbeat. Symptoms stable.\nVITALS: BP 115/95 mmHg, HR 78 bpm, Temp 99.1 F, SpO2 98%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Okonkwo, note dated 2024-12-04."
+        }
+      ]
+    },
+    {
+      "MRN": "MRN-02906031",
+      "name": {
+        "family": "Quintero",
+        "given": "Nico"
+      },
+      "dob": "05-Apr-1992",
+      "sex": "male",
+      "encounters": [
+        {
+          "encounter_id": "E427265",
+          "type": "inpatient",
+          "start": "17-May-2024",
+          "end": "2024-05-20",
+          "reason": "Increased shortness of breath and wheezing"
+        },
+        {
+          "encounter_id": "E227316",
+          "type": "OP",
+          "start": "2024-06-14",
+          "end": "2024-06-14",
+          "reason": "Post-discharge follow-up: Increased shortness of breath and wheezing"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D00901",
+          "type": "Progress Note",
+          "date": null,
+          "encounter_id": "E427265",
+          "text": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 32-year-old male with COPD and a 40 pack-year smoking history, 3 days of increased sputum, wheeze and dyspnea at rest.\nVITALS: BP 162/68 mmHg, HR 90 bpm, Temp 99.8 F, SpO2 93%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Okonkwo, note dated 2024-05-17."
+        },
+        {
+          "doc_id": "D00903",
+          "type": "discharge_summary",
+          "date": "2024-05-20",
+          "encounter_id": "E427265",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-05-17\nDISCHARGE DATE: 2024-05-20\nADMITTING COMPLAINT: Increased shortness of breath and wheezing\nDISCHARGE DIAGNOSES: 1. COPD with acute exacerbation (J44.1)\nHOSPITAL COURSE: Improved with bronchodilators and steroids, discharged on oral prednisone taper and home nebulizer.\nDISCHARGE MEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "doc_id": "D00904",
+          "type": "Office Visit Note",
+          "date": "6/14/24",
+          "encounter_id": "E227316",
+          "text": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 32-year-old male returning for follow-up of increased shortness of breath and wheezing. Symptoms improving.\nVITALS: BP 149/85 mmHg, HR 92 bpm, Temp 100.6 F, SpO2 90%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Patel, note dated 2024-06-14."
+        }
+      ]
+    },
+    {
+      "MRN": "#03857206",
+      "name": {
+        "family": "Underhill",
+        "given": "Quinn"
+      },
+      "dob": "1972-12-11",
+      "sex": "Female",
+      "encounters": [
+        {
+          "encounter_id": "E351904",
+          "type": "AMB",
+          "start": "2024-09-02",
+          "end": "09/02/2024",
+          "reason": "Blood pressure follow-up and medication refill"
+        },
+        {
+          "encounter_id": "E690460",
+          "type": "AMB",
+          "start": "November 23, 2024",
+          "end": "11/23/2024",
+          "reason": "Follow-up: Blood pressure follow-up and medication refill"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D01001",
+          "type": "Progress Note",
+          "date": null,
+          "encounter_id": "E351904",
+          "text": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 51-year-old female presenting for routine hypertension review, no side effects from lisinopril.\nVITALS: BP 110/91 mmHg, HR 112 bpm, Temp 98.9 F, SpO2 97%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Moreno, note dated 2024-09-02."
+        },
+        {
+          "doc_id": "D01002",
+          "type": "PN",
+          "date": "23-Nov-2024",
+          "encounter_id": "E690460",
+          "text": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 51-year-old female returning for follow-up of blood pressure follow-up and medication refill. Symptoms stable.\nVITALS: BP 144/64 mmHg, HR 102 bpm, Temp 99.4 F, SpO2 97%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Haddad, note dated 2024-11-23."
+        }
+      ]
+    },
+    {
+      "MRN": "#00444456",
+      "name": {
+        "family": "Nakamura",
+        "given": "Gavin"
+      },
+      "dob": "August 30, 1983",
+      "sex": "m",
+      "encounters": [
+        {
+          "encounter_id": "E964590",
+          "type": "inpatient",
+          "start": "October 3, 2024",
+          "end": "10/06/2024",
+          "reason": "Right lower quadrant abdominal pain"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D01101",
+          "type": "Progress Note",
+          "date": "10/03/2024",
+          "encounter_id": "E964590",
+          "text": "CHIEF COMPLAINT: Right lower quadrant abdominal pain\nHPI: 41-year-old male with progressive right lower quadrant pain, low-grade fever and rebound tenderness.\nVITALS: BP 147/92 mmHg, HR 118 bpm, Temp 102.6 F, SpO2 98%\nASSESSMENT: Acute appendicitis (K35.80), without perforation.\nPLAN: NPO, IV fluids and antibiotics. Surgical consultation for laparoscopic appendectomy.\nMEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nAttending: Dr. Chen, note dated 2024-10-03."
+        },
+        {
+          "doc_id": "D01103",
+          "type": "DC SUMM",
+          "date": "2024-10-06",
+          "encounter_id": "E964590",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-10-03\nDISCHARGE DATE: 2024-10-06\nADMITTING COMPLAINT: Right lower quadrant abdominal pain\nDISCHARGE DIAGNOSES: 1. Acute appendicitis (K35.80)\nHOSPITAL COURSE: Underwent uncomplicated laparoscopic appendectomy. Tolerating diet on day 1, discharged on day 2.\nDISCHARGE MEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "doc_id": "D01199",
+          "type": "Progress Note",
+          "date": null,
+          "encounter_id": null,
+          "text": "Telephone note: patient called with a question about medication timing. Advised to continue current regimen."
+        }
+      ]
+    },
+    {
+      "mrn": "#08111374",
+      "patient_name": "Sandoval, Jade",
+      "birthDate": "6/14/61",
+      "gender": "F",
+      "encounters": [
+        {
+          "id": "E271405",
+          "class": "inpatient",
+          "period_start": "2024-05-15",
+          "period_end": "21-May-2024",
+          "reason": "Cough, fever and shortness of breath"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D01201",
+          "documentType": "PN",
+          "documentDate": "20240515",
+          "encounterId": "E271405",
+          "body": "CHIEF COMPLAINT: Cough, fever and shortness of breath\nHPI: 62-year-old female with 4 days of productive cough, fever to 102 F and pleuritic right-sided chest pain.\nVITALS: BP 153/75 mmHg, HR 70 bpm, Temp 101.0 F, SpO2 90%\nASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with mild hypoxemia (R09.02).\nPLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep SpO2 above 92%. Repeat chest X-ray in 6 weeks to document resolution.\nMEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nAttending: Dr. Lindgren, note dated 2024-05-15."
+        },
+        {
+          "id": "D01202",
+          "documentType": "Imaging Report",
+          "documentDate": "05/15/2024",
+          "encounterId": "E271405",
+          "body": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-05-15\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Right lower lobe airspace consolidation with air bronchograms. Small right parapneumonic effusion. Heart size is normal. No pneumothorax.\nIMPRESSION: Right lower lobe pneumonia with small parapneumonic effusion.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "id": "D01203",
+          "documentType": "DC SUMM",
+          "documentDate": "2024-05-21",
+          "encounterId": "E271405",
+          "body": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-05-15\nDISCHARGE DATE: 2024-05-21\nADMITTING COMPLAINT: Cough, fever and shortness of breath\nDISCHARGE DIAGNOSES: 1. Community-acquired pneumonia (J18.9); 2. Hypoxemia (R09.02)\nHOSPITAL COURSE: Treated with IV ceftriaxone and azithromycin, transitioned to oral therapy on hospital day 3. Oxygen weaned to room air. Afebrile for 48 hours before discharge.\nDISCHARGE MEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "id": "D01299",
+          "documentType": "Office Visit Note",
+          "documentDate": null,
+          "encounterId": null,
+          "body": "Telephone note: patient called with a question about medication timing. Advised to continue current regimen."
+        }
+      ]
+    },
+    {
+      "MRN": "mrn 5079540",
+      "name": {
+        "family": "Rasmussen",
+        "given": "Rami"
+      },
+      "dob": "1940-12-10",
+      "sex": "1",
+      "encounters": [
+        {
+          "encounter_id": "E722857",
+          "type": "AMB",
+          "start": "08/26/2024",
+          "end": "8/26/24",
+          "reason": "Diabetes follow-up with elevated home glucose readings"
+        },
+        {
+          "encounter_id": "E428986",
+          "type": "ambulatory",
+          "start": "11/16/2024",
+          "end": "November 16, 2024",
+          "reason": "Follow-up: Diabetes follow-up with elevated home glucose readings"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D01301",
+          "type": "Progress Note",
+          "date": "2024-08-26",
+          "encounter_id": "E722857",
+          "text": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 83-year-old male with type 2 diabetes reporting fasting home glucose 180-240 mg/dL, increased thirst and urination.\nVITALS: BP 161/72 mmHg, HR 74 bpm, Temp 98.9 F, SpO2 96%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Haddad, note dated 2024-08-26."
+        },
+        {
+          "doc_id": "D01302",
+          "type": "PN",
+          "date": "11/16/2024",
+          "encounter_id": "E428986",
+          "text": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 83-year-old male returning for follow-up of diabetes follow-up with elevated home glucose readings. Mild residual symptoms.\nVITALS: BP 164/62 mmHg, HR 65 bpm, Temp 98.1 F, SpO2 98%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Novak, note dated 2024-11-16."
+        },
+        {
+          "doc_id": "D01398",
+          "type": "progress_note",
+          "date": "26-Aug-2024",
+          "encounter_id": "E722857",
+          "text": "   \n  "
+        }
+      ]
+    },
+    {
+      "MRN": " 07452175 ",
+      "name": {
+        "family": "Rasmussen",
+        "given": "Ivan"
+      },
+      "dob": "October 2, 1978",
+      "sex": "1",
+      "encounters": [
+        {
+          "encounter_id": "E571517",
+          "type": "IMP",
+          "start": "2024-10-31",
+          "end": "2024-11-05",
+          "reason": "Worsening leg swelling and difficulty breathing when lying flat"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D01401",
+          "type": "Progress Note",
+          "date": "2024-10-31",
+          "encounter_id": "E571517",
+          "text": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 46-year-old male with known heart failure presenting with 2 weeks of progressive leg edema, orthopnea and weight gain of 6 kg.\nVITALS: BP 120/75 mmHg, HR 87 bpm, Temp 98.2 F, SpO2 99%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Lindgren, note dated 2024-10-31."
+        },
+        {
+          "doc_id": "D01403",
+          "type": "RAD",
+          "date": "2024-11-01",
+          "encounter_id": "E571517",
+          "text": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-11-01\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Left ventricular ejection fraction approximately 30% with global hypokinesis. Moderate functional mitral regurgitation. Left atrium moderately dilated.\nIMPRESSION: Reduced left ventricular systolic function, LVEF 30%.\nRadiologist: Dr. Patel"
+        },
+        {
+          "doc_id": "D01404",
+          "type": "Discharge Summary",
+          "date": "11/05/2024",
+          "encounter_id": "E571517",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-10-31\nDISCHARGE DATE: 2024-11-05\nADMITTING COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nDISCHARGE DIAGNOSES: 1. Acute on chronic systolic heart failure (I50.23)\nHOSPITAL COURSE: Diuresed 5 L with IV furosemide. Weight down 5 kg. Transitioned to oral torsemide. Education on sodium and fluid restriction.\nDISCHARGE MEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "doc_id": "D01497",
+          "type": "Progress Note",
+          "date": "2024-10-31",
+          "encounter_id": "E571517",
+          "text": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 46-year-old male with known heart failure presenting with 2 weeks of progressive leg edema, orthopnea and weight gain of 6 kg.\nVITALS: BP 120/75 mmHg, HR 87 bpm, Temp 98.2 F, SpO2 99%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Lindgren, note dated 2024-10-31."
+        }
+      ]
+    },
+    {
+      "MRN": "8276673",
+      "name": {
+        "family": "Ibarra",
+        "given": "Boris"
+      },
+      "dob": "19820320",
+      "sex": "M",
+      "encounters": [
+        {
+          "encounter_id": "E279380",
+          "type": "OP",
+          "start": "11/22/2024",
+          "end": "November 22, 2024",
+          "reason": "Nephrology follow-up for chronic kidney disease"
+        },
+        {
+          "encounter_id": "E244906",
+          "type": "OP",
+          "start": "02/17/2025",
+          "end": "February 17, 2025",
+          "reason": "Follow-up: Nephrology follow-up for chronic kidney disease"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D01501",
+          "type": "progress_note",
+          "date": "11/22/2024",
+          "encounter_id": "E279380",
+          "text": "CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease\nHPI: 42-year-old male with chronic kidney disease and hypertension, no new complaints, mild fatigue.\nVITALS: BP 133/90 mmHg, HR 64 bpm, Temp 99.1 F, SpO2 99%\nASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia (E87.5).\nPLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs. Repeat renal panel in 4 weeks. Renal ultrasound.\nMEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.\nAttending: Dr. Okonkwo, note dated 2024-11-22."
+        },
+        {
+          "doc_id": "D01502",
+          "type": "XR Report",
+          "date": "November 22, 2024",
+          "encounter_id": "E279380",
+          "text": "EXAM: US RETROPERITONEUM RENAL\nDATE OF EXAM: 2024-11-22\nTECHNIQUE: Real-time grayscale and Doppler ultrasound of both kidneys.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Both kidneys are echogenic with reduced cortical thickness. No hydronephrosis, calculi or focal mass.\nIMPRESSION: Chronic medical renal disease without obstruction.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "doc_id": "D01503",
+          "type": "PN",
+          "date": "17-Feb-2025",
+          "encounter_id": "E244906",
+          "text": "CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease\nHPI: 42-year-old male returning for follow-up of nephrology follow-up for chronic kidney disease. Mild residual symptoms.\nVITALS: BP 122/84 mmHg, HR 79 bpm, Temp 98.3 F, SpO2 99%\nASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia (E87.5).\nPLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs. Repeat renal panel in 4 weeks. Renal ultrasound.\nMEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.\nAttending: Dr. Lindgren, note dated 2025-02-17."
+        },
+        {
+          "doc_id": "D01597",
+          "type": "progress_note",
+          "date": "11/22/2024",
+          "encounter_id": "E279380",
+          "text": "CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease\nHPI: 42-year-old male with chronic kidney disease and hypertension, no new complaints, mild fatigue.\nVITALS: BP 133/90 mmHg, HR 64 bpm, Temp 99.1 F, SpO2 99%\nASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia (E87.5).\nPLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs. Repeat renal panel in 4 weeks. Renal ultrasound.\nMEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.\nAttending: Dr. Okonkwo, note dated 2024-11-22."
+        }
+      ]
+    },
+    {
+      "mrn": " 06384202 ",
+      "patient_name": "Nakamura, Hugo",
+      "birthDate": "03/16/1972",
+      "gender": "1",
+      "encounters": [
+        {
+          "id": "E586464",
+          "class": "EMER",
+          "period_start": "August 26, 2024",
+          "period_end": "August 26, 2024",
+          "reason": "Severe headache with sensitivity to light"
+        },
+        {
+          "id": "E655017",
+          "class": "Outpatient",
+          "period_start": "9/9/24",
+          "period_end": "2024-09-09",
+          "reason": "Follow-up: Severe headache with sensitivity to light"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D01601",
+          "documentType": "PN",
+          "documentDate": "26-Aug-2024",
+          "encounterId": "E586464",
+          "body": "CHIEF COMPLAINT: Severe headache with sensitivity to light\nHPI: 52-year-old male with sudden onset throbbing right-sided headache, nausea and photophobia for 10 hours. History of similar episodes.\nVITALS: BP 117/80 mmHg, HR 108 bpm, Temp 99.2 F, SpO2 97%\nASSESSMENT: Migraine without aura (G43.009). No red-flag features on examination.\nPLAN: IV fluids, metoclopramide and ketorolac with improvement. CT head to exclude acute pathology. Outpatient neurology follow-up.\nMEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg as needed.\nAttending: Dr. Chen, note dated 2024-08-26."
+        },
+        {
+          "id": "D01602",
+          "documentType": "RAD",
+          "documentDate": "2024-08-26",
+          "encounterId": "E586464",
+          "body": "EXAM: CT HEAD WITHOUT CONTRAST\nDATE OF EXAM: 2024-08-26\nTECHNIQUE: Axial non-contrast CT of the head.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: No acute intracranial hemorrhage, mass effect or large territorial infarct. Ventricles and sulci are normal. Paranasal sinuses are clear.\nIMPRESSION: Negative non-contrast CT of the head.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "id": "D01603",
+          "documentType": "PN",
+          "documentDate": "09/09/2024",
+          "encounterId": "E655017",
+          "body": "CHIEF COMPLAINT: Severe headache with sensitivity to light\nHPI: 52-year-old male returning for follow-up of severe headache with sensitivity to light. Mild residual symptoms.\nVITALS: BP 125/65 mmHg, HR 73 bpm, Temp 99.2 F, SpO2 97%\nASSESSMENT: Migraine without aura (G43.009). No red-flag features on examination.\nPLAN: IV fluids, metoclopramide and ketorolac with improvement. CT head to exclude acute pathology. Outpatient neurology follow-up.\nMEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg as needed.\nAttending: Dr. Haddad, note dated 2024-09-09."
+        },
+        {
+          "id": "D01697",
+          "documentType": "Office Visit Note",
+          "documentDate": "26-Aug-2024",
+          "encounterId": "E586464",
+          "body": "CHIEF COMPLAINT: Severe headache with sensitivity to light\nHPI: 52-year-old male with sudden onset throbbing right-sided headache, nausea and photophobia for 10 hours. History of similar episodes.\nVITALS: BP 117/80 mmHg, HR 108 bpm, Temp 99.2 F, SpO2 97%\nASSESSMENT: Migraine without aura (G43.009). No red-flag features on examination.\nPLAN: IV fluids, metoclopramide and ketorolac with improvement. CT head to exclude acute pathology. Outpatient neurology follow-up.\nMEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg as needed.\nAttending: Dr. Chen, note dated 2024-08-26."
+        }
+      ]
+    },
+    {
+      "mrn": "03874329",
+      "patient_name": "Nakamura, Carla",
+      "birthDate": "February 22, 1945",
+      "gender": "f",
+      "encounters": [
+        {
+          "id": "E165536",
+          "class": "Emergency",
+          "period_start": "2024-08-15",
+          "period_end": "08/15/2024",
+          "reason": "Left wrist pain after a fall"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D01701",
+          "documentType": "Progress Note",
+          "documentDate": "8/15/24",
+          "encounterId": "E165536",
+          "body": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 79-year-old female fell from standing height onto left hand, unable to grip, wrist swollen and tender over the distal radius.\nVITALS: BP 130/90 mmHg, HR 74 bpm, Temp 98.8 F, SpO2 96%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Okonkwo, note dated 2024-08-15."
+        },
+        {
+          "id": "D01797",
+          "documentType": "progress_note",
+          "documentDate": "8/15/24",
+          "encounterId": "E165536",
+          "body": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 79-year-old female fell from standing height onto left hand, unable to grip, wrist swollen and tender over the distal radius.\nVITALS: BP 130/90 mmHg, HR 74 bpm, Temp 98.8 F, SpO2 96%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Okonkwo, note dated 2024-08-15."
+        }
+      ]
+    },
+    {
+      "mrn": "MRN-09085751",
+      "patient_name": "Kowalczyk, Marek",
+      "birthDate": "1958-06-28",
+      "gender": "m",
+      "encounters": [
+        {
+          "id": "E334546",
+          "class": "Outpatient",
+          "period_start": "2024-07-30",
+          "period_end": "2024-07-30",
+          "reason": "Fatigue and shortness of breath on exertion"
+        },
+        {
+          "id": "E882420",
+          "class": "Outpatient",
+          "period_start": "10/21/2024",
+          "period_end": "2024-10-21",
+          "reason": "Follow-up: Fatigue and shortness of breath on exertion"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D01801",
+          "documentType": "PN",
+          "documentDate": "2024-07-30",
+          "encounterId": "E334546",
+          "body": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 66-year-old male with progressive tiredness, brittle nails and pica. No melena or hematochezia reported.\nVITALS: BP 117/71 mmHg, HR 92 bpm, Temp 99.1 F, SpO2 99%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Patel, note dated 2024-07-30."
+        },
+        {
+          "id": "D01802",
+          "documentType": "PN",
+          "documentDate": "20241021",
+          "encounterId": "E882420",
+          "body": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 66-year-old male returning for follow-up of fatigue and shortness of breath on exertion. Symptoms stable.\nVITALS: BP 136/87 mmHg, HR 78 bpm, Temp 99.2 F, SpO2 96%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Lindgren, note dated 2024-10-21."
+        }
+      ]
+    },
+    {
+      "mrn": "#00640253",
+      "patient_name": "Underhill, Rami",
+      "birthDate": "30-Dec-1953",
+      "gender": "male",
+      "encounters": [
+        {
+          "id": "E512046",
+          "class": "Inpatient",
+          "period_start": "05/18/2024",
+          "period_end": "05/24/2024",
+          "reason": "Fever, flank pain and burning with urination"
+        },
+        {
+          "id": "E563586",
+          "class": "AMB",
+          "period_start": "06/16/2024",
+          "period_end": "2024-06-16",
+          "reason": "Post-discharge follow-up: Fever, flank pain and burning with urination"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D01901",
+          "documentType": "PN",
+          "documentDate": "05/18/2024",
+          "encounterId": "E512046",
+          "body": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 70-year-old male with chills, rigors and costovertebral angle tenderness after several days of urinary symptoms.\nVITALS: BP 121/94 mmHg, HR 99 bpm, Temp 102.3 F, SpO2 97%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Moreno, note dated 2024-05-18."
+        },
+        {
+          "id": "D01902",
+          "documentType": "Imaging Report",
+          "documentDate": "2024-05-18",
+          "encounterId": "E512046",
+          "body": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-05-18\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Right kidney is enlarged with striated nephrogram and perinephric stranding. No obstructing calculus, hydronephrosis or drainable abscess.\nIMPRESSION: Findings consistent with acute right pyelonephritis.\nRadiologist: Dr. Chen"
+        },
+        {
+          "id": "D01903",
+          "documentType": "DC SUMM",
+          "documentDate": "May 24, 2024",
+          "encounterId": "E512046",
+          "body": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-05-18\nDISCHARGE DATE: 2024-05-24\nADMITTING COMPLAINT: Fever, flank pain and burning with urination\nDISCHARGE DIAGNOSES: 1. Acute pyelonephritis (N10)\nHOSPITAL COURSE: Fever resolved within 48 hours on IV ceftriaxone. Cultures grew E. coli, sensitive to ciprofloxacin. Transitioned to oral therapy.\nDISCHARGE MEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "id": "D01904",
+          "documentType": "progress_note",
+          "documentDate": "2024-06-16",
+          "encounterId": "E563586",
+          "body": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 70-year-old male returning for follow-up of fever, flank pain and burning with urination. Mild residual symptoms.\nVITALS: BP 131/97 mmHg, HR 96 bpm, Temp 102.9 F, SpO2 99%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Patel, note dated 2024-06-16."
+        }
+      ]
+    },
+    {
+      "mrn": " 06564150 ",
+      "patient_name": "Underhill, Pavel",
+      "birthDate": "10/13/93",
+      "gender": "MALE",
+      "encounters": [
+        {
+          "id": "E676720",
+          "class": "Outpatient",
+          "period_start": "8/18/24",
+          "period_end": "18-Aug-2024",
+          "reason": "Palpitations and irregular heartbeat"
+        },
+        {
+          "id": "E693113",
+          "class": "Outpatient",
+          "period_start": "10/17/24",
+          "period_end": "October 17, 2024",
+          "reason": "Follow-up: Palpitations and irregular heartbeat"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D02001",
+          "documentType": "progress_note",
+          "documentDate": "2024-08-18",
+          "encounterId": "E676720",
+          "body": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 30-year-old male noticing an irregular pulse on a home monitor, mild exertional fatigue.\nVITALS: BP 155/81 mmHg, HR 108 bpm, Temp 98.1 F, SpO2 96%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Haddad, note dated 2024-08-18."
+        },
+        {
+          "id": "D02002",
+          "documentType": "XR Report",
+          "documentDate": "08/18/2024",
+          "encounterId": "E676720",
+          "body": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-08-18\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: None available.\nFINDINGS: Left ventricular ejection fraction 55%. Left atrium is moderately enlarged. No significant valvular stenosis or regurgitation.\nIMPRESSION: Preserved LVEF with left atrial enlargement.\nRadiologist: Dr. Lindgren"
+        }
+      ]
+    },
+    {
+      "mrn": " 09321613 ",
+      "patient_name": "Whitfield, Adam",
+      "birthDate": "1979-07-31",
+      "gender": "M",
+      "encounters": [
+        {
+          "id": "E988149",
+          "class": "inpatient",
+          "period_start": "20240415",
+          "period_end": "04/18/2024",
+          "reason": "Increased shortness of breath and wheezing"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D02101",
+          "documentType": "progress_note",
+          "documentDate": "04/15/2024",
+          "encounterId": "E988149",
+          "body": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 44-year-old male with COPD and a 40 pack-year smoking history, 3 days of increased sputum, wheeze and dyspnea at rest.\nVITALS: BP 164/69 mmHg, HR 79 bpm, Temp 99.7 F, SpO2 92%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Okonkwo, note dated 2024-04-15."
+        },
+        {
+          "id": "D02102",
+          "documentType": "XR Report",
+          "documentDate": "4/15/24",
+          "encounterId": "E988149",
+          "body": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-04-15\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: None available.\nFINDINGS: Hyperinflated lungs with flattened diaphragms and increased retrosternal air space. No focal consolidation, effusion or pneumothorax.\nIMPRESSION: Hyperinflation consistent with COPD. No acute infiltrate.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "id": "D02103",
+          "documentType": "Discharge Summary",
+          "documentDate": "4/18/24",
+          "encounterId": "E988149",
+          "body": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-04-15\nDISCHARGE DATE: 2024-04-18\nADMITTING COMPLAINT: Increased shortness of breath and wheezing\nDISCHARGE DIAGNOSES: 1. COPD with acute exacerbation (J44.1)\nHOSPITAL COURSE: Improved with bronchodilators and steroids, discharged on oral prednisone taper and home nebulizer.\nDISCHARGE MEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "mrn": "#06912272",
+      "patient_name": "Zielinski, Luis",
+      "birthDate": "1962-03-26",
+      "gender": "M",
+      "encounters": [
+        {
+          "id": "E679738",
+          "class": "ambulatory",
+          "period_start": "2024-12-04",
+          "period_end": "December 4, 2024",
+          "reason": "Blood pressure follow-up and medication refill"
+        },
+        {
+          "id": "E648713",
+          "class": "Outpatient",
+          "period_start": "February 4, 2025",
+          "period_end": "04-Feb-2025",
+          "reason": "Follow-up: Blood pressure follow-up and medication refill"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D02201",
+          "documentType": "Progress Note",
+          "documentDate": "04-Dec-2024",
+          "encounterId": "E679738",
+          "body": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 62-year-old male presenting for routine hypertension review, no side effects from lisinopril.\nVITALS: BP 111/86 mmHg, HR 60 bpm, Temp 98.1 F, SpO2 96%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Novak, note dated 2024-12-04."
+        },
+        {
+          "id": "D02202",
+          "documentType": "progress_note",
+          "documentDate": "2/4/25",
+          "encounterId": "E648713",
+          "body": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 62-year-old male returning for follow-up of blood pressure follow-up and medication refill. Mild residual symptoms.\nVITALS: BP 135/77 mmHg, HR 100 bpm, Temp 99.0 F, SpO2 96%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Rivera, note dated 2025-02-04."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "#01774272",
+      "FirstName": "Ivan",
+      "LastName": "Okafor",
+      "DateOfBirth": "05/30/1978",
+      "Gender": "male",
+      "Encounters": [
+        {
+          "EncounterID": "E878549",
+          "EncounterType": "IMP",
+          "AdmitDate": "10/10/2024",
+          "DischargeDate": "2024-10-15",
+          "ChiefComplaint": "Right lower quadrant abdominal pain"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D02301",
+          "DocType": "Progress Note",
+          "ServiceDate": "10/10/2024",
+          "EncounterID": "E878549",
+          "Content": "CHIEF COMPLAINT: Right lower quadrant abdominal pain\nHPI: 46-year-old male with 24 hours of periumbilical pain migrating to the right lower quadrant, anorexia and nausea.\nVITALS: BP 134/85 mmHg, HR 105 bpm, Temp 102.8 F, SpO2 98%\nASSESSMENT: Acute appendicitis (K35.80), without perforation.\nPLAN: NPO, IV fluids and antibiotics. Surgical consultation for laparoscopic appendectomy.\nMEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nAttending: Dr. Haddad, note dated 2024-10-10."
+        },
+        {
+          "DocumentID": "D02302",
+          "DocType": "XR Report",
+          "ServiceDate": "2024-10-10",
+          "EncounterID": "E878549",
+          "Content": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-10-10\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: None available.\nFINDINGS: Dilated appendix measuring 11 mm with periappendiceal fat stranding and an appendicolith. No free air or drainable collection.\nIMPRESSION: Acute uncomplicated appendicitis.\nRadiologist: Dr. Novak"
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "#00378409",
+      "FirstName": "Felix",
+      "LastName": "Quintero",
+      "DateOfBirth": "05/11/1983",
+      "Gender": "male",
+      "Encounters": [
+        {
+          "EncounterID": "E154081",
+          "EncounterType": "inpatient",
+          "AdmitDate": "2024-05-31",
+          "DischargeDate": "2024-06-06",
+          "ChiefComplaint": "Cough, fever and shortness of breath"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D02401",
+          "DocType": "PN",
+          "ServiceDate": "2024-05-31",
+          "EncounterID": "E154081",
+          "Content": "CHIEF COMPLAINT: Cough, fever and shortness of breath\nHPI: 41-year-old male with worsening dyspnea and fever for 3 days despite over-the-counter antipyretics.\nVITALS: BP 151/86 mmHg, HR 65 bpm, Temp 101.7 F, SpO2 88%\nASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with mild hypoxemia (R09.02).\nPLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep SpO2 above 92%. Repeat chest X-ray in 6 weeks to document resolution.\nMEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nAttending: Dr. Lindgren, note dated 2024-05-31."
+        },
+        {
+          "DocumentID": "D02402",
+          "DocType": "XR Report",
+          "ServiceDate": "2024-05-31",
+          "EncounterID": "E154081",
+          "Content": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-05-31\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: None available.\nFINDINGS: Right lower lobe airspace consolidation with air bronchograms. Small right parapneumonic effusion. Heart size is normal. No pneumothorax.\nIMPRESSION: Right lower lobe pneumonia with small parapneumonic effusion.\nRadiologist: Dr. Lindgren"
+        },
+        {
+          "DocumentID": "D02403",
+          "DocType": "discharge_summary",
+          "ServiceDate": "June 6, 2024",
+          "EncounterID": "E154081",
+          "Content": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-05-31\nDISCHARGE DATE: 2024-06-06\nADMITTING COMPLAINT: Cough, fever and shortness of breath\nDISCHARGE DIAGNOSES: 1. Community-acquired pneumonia (J18.9); 2. Hypoxemia (R09.02)\nHOSPITAL COURSE: Treated with IV ceftriaxone and azithromycin, transitioned to oral therapy on hospital day 3. Oxygen weaned to room air. Afebrile for 48 hours before discharge.\nDISCHARGE MEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "mrn": "728682",
+      "patient_name": "Underhill, Boris",
+      "birthDate": "1971-08-14",
+      "gender": "M",
+      "encounters": [
+        {
+          "id": "E760028",
+          "class": "AMB",
+          "period_start": "11/13/2024",
+          "period_end": "13-Nov-2024",
+          "reason": "Diabetes follow-up with elevated home glucose readings"
+        },
+        {
+          "id": "E961450",
+          "class": "OP",
+          "period_start": "20250131",
+          "period_end": "2025-01-31",
+          "reason": "Follow-up: Diabetes follow-up with elevated home glucose readings"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D02501",
+          "documentType": "Progress Note",
+          "documentDate": "11/13/2024",
+          "encounterId": "E760028",
+          "body": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 53-year-old male with type 2 diabetes reporting fasting home glucose 180-240 mg/dL, increased thirst and urination.\nVITALS: BP 154/87 mmHg, HR 80 bpm, Temp 99.4 F, SpO2 97%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Lindgren, note dated 2024-11-13."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "#02687446",
+      "FirstName": "Sven",
+      "LastName": "Haddad",
+      "DateOfBirth": "04-Feb-1961",
+      "Gender": "m",
+      "Encounters": [
+        {
+          "EncounterID": "E509052",
+          "EncounterType": "IMP",
+          "AdmitDate": "20240313",
+          "DischargeDate": "2024-03-19",
+          "ChiefComplaint": "Worsening leg swelling and difficulty breathing when lying flat"
+        },
+        {
+          "EncounterID": "E822270",
+          "EncounterType": "OP",
+          "AdmitDate": "06-Apr-2024",
+          "DischargeDate": "April 6, 2024",
+          "ChiefComplaint": "Post-discharge follow-up: Worsening leg swelling and difficulty breathing when lying flat"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D02601",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "13-Mar-2024",
+          "EncounterID": "E509052",
+          "Content": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 63-year-old male with known heart failure presenting with 2 weeks of progressive leg edema, orthopnea and weight gain of 6 kg.\nVITALS: BP 146/93 mmHg, HR 73 bpm, Temp 98.5 F, SpO2 97%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Rivera, note dated 2024-03-13."
+        },
+        {
+          "DocumentID": "D02602",
+          "DocType": "Imaging Report",
+          "ServiceDate": "3/13/24",
+          "EncounterID": "E509052",
+          "Content": "EXAM: XR CHEST 1 VIEW PORTABLE\nDATE OF EXAM: 2024-03-13\nTECHNIQUE: Portable AP view of the chest.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Cardiomegaly with pulmonary vascular congestion and interstitial edema. Small bilateral pleural effusions.\nIMPRESSION: Findings consistent with congestive heart failure.\nRadiologist: Dr. Lindgren"
+        },
+        {
+          "DocumentID": "D02603",
+          "DocType": "XR Report",
+          "ServiceDate": "March 14, 2024",
+          "EncounterID": "E509052",
+          "Content": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-03-14\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Left ventricular ejection fraction approximately 30% with global hypokinesis. Moderate functional mitral regurgitation. Left atrium moderately dilated.\nIMPRESSION: Reduced left ventricular systolic function, LVEF 30%.\nRadiologist: Dr. Chen"
+        },
+        {
+          "DocumentID": "D02604",
+          "DocType": "Discharge Summary",
+          "ServiceDate": "19-Mar-2024",
+          "EncounterID": "E509052",
+          "Content": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-03-13\nDISCHARGE DATE: 2024-03-19\nADMITTING COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nDISCHARGE DIAGNOSES: 1. Acute on chronic systolic heart failure (I50.23)\nHOSPITAL COURSE: Diuresed 5 L with IV furosemide. Weight down 5 kg. Transitioned to oral torsemide. Education on sodium and fluid restriction.\nDISCHARGE MEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "DocumentID": "D02605",
+          "DocType": "PN",
+          "ServiceDate": "April 6, 2024",
+          "EncounterID": "E822270",
+          "Content": "CHIEF COMPLAINT: Worsening leg swelling and difficulty breathing when lying flat\nHPI: 63-year-old male returning for follow-up of worsening leg swelling and difficulty breathing when lying flat. Symptoms improving.\nVITALS: BP 145/91 mmHg, HR 102 bpm, Temp 98.1 F, SpO2 97%\nASSESSMENT: Acute on chronic systolic heart failure (I50.23), volume overloaded.\nPLAN: IV furosemide with strict intake and output. Daily weights. Continue guideline-directed therapy. Cardiology consult and echocardiogram.\nMEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg twice daily; sacubitril-valsartan.\nAttending: Dr. Haddad, note dated 2024-04-06."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "70905",
+      "FirstName": "Jonas",
+      "LastName": "Haddad",
+      "DateOfBirth": "25-Dec-1937",
+      "Gender": "MALE",
+      "Encounters": [
+        {
+          "EncounterID": "E961993",
+          "EncounterType": "Outpatient",
+          "AdmitDate": "6/9/24",
+          "DischargeDate": "09-Jun-2024",
+          "ChiefComplaint": "Nephrology follow-up for chronic kidney disease"
+        },
+        {
+          "EncounterID": "E899686",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "08/24/2024",
+          "DischargeDate": "24-Aug-2024",
+          "ChiefComplaint": "Follow-up: Nephrology follow-up for chronic kidney disease"
+        }
+      ],
+      "Documents": []
+    },
+    {
+      "MRN": "00741413",
+      "name": {
+        "family": "Banerjee",
+        "given": "Opal"
+      },
+      "dob": "1949-01-04",
+      "sex": "2",
+      "encounters": [
+        {
+          "encounter_id": "E335858",
+          "type": "EMER",
+          "start": "2024-11-27",
+          "end": "2024-11-27",
+          "reason": "Severe headache with sensitivity to light"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D02802",
+          "type": "XR Report",
+          "date": "27-Nov-2024",
+          "encounter_id": "E335858",
+          "text": "EXAM: CT HEAD WITHOUT CONTRAST\nDATE OF EXAM: 2024-11-27\nTECHNIQUE: Axial non-contrast CT of the head.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: No acute intracranial hemorrhage, mass effect or large territorial infarct. Ventricles and sulci are normal. Paranasal sinuses are clear.\nIMPRESSION: Negative non-contrast CT of the head.\nRadiologist: Dr. Patel"
+        }
+      ]
+    },
+    {
+      "MRN": "02645236",
+      "name": {
+        "family": "Eriksen",
+        "given": "Kofi"
+      },
+      "dob": "8/28/67",
+      "sex": "1",
+      "encounters": [
+        {
+          "encounter_id": "E944434",
+          "type": "ED",
+          "start": "09/12/2024",
+          "end": "September 12, 2024",
+          "reason": "Left wrist pain after a fall"
+        },
+        {
+          "encounter_id": "E289567",
+          "type": "ambulatory",
+          "start": "2024-09-26",
+          "end": "September 26, 2024",
+          "reason": "Follow-up: Left wrist pain after a fall"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D02902",
+          "type": "XR Report",
+          "date": "2024-09-12",
+          "encounter_id": "E944434",
+          "text": "EXAM: XR WRIST LEFT 3 VIEWS\nDATE OF EXAM: 2024-09-12\nTECHNIQUE: PA, lateral and oblique views of the left wrist.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Transverse fracture of the distal radial metaphysis with dorsal angulation and mild impaction. No intra-articular extension. Ulnar styloid intact.\nIMPRESSION: Acute distal radius fracture with dorsal angulation.\nRadiologist: Dr. Novak"
+        },
+        {
+          "doc_id": "D02903",
+          "type": "PN",
+          "date": "2024-09-26",
+          "encounter_id": "E289567",
+          "text": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 57-year-old male returning for follow-up of left wrist pain after a fall. Mild residual symptoms.\nVITALS: BP 129/63 mmHg, HR 105 bpm, Temp 99.1 F, SpO2 97%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Moreno, note dated 2024-09-26."
+        }
+      ]
+    },
+    {
+      "MRN": " 01274643 ",
+      "name": {
+        "family": "Underhill",
+        "given": "Gwen"
+      },
+      "dob": "08/10/1990",
+      "sex": "N/A",
+      "encounters": [
+        {
+          "encounter_id": "E218823",
+          "type": "Outpatient",
+          "start": "2024-07-09",
+          "end": "07/09/2024",
+          "reason": "Fatigue and shortness of breath on exertion"
+        },
+        {
+          "encounter_id": "E124771",
+          "type": "Outpatient",
+          "start": "20240913",
+          "end": "September 13, 2024",
+          "reason": "Follow-up: Fatigue and shortness of breath on exertion"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03002",
+          "type": "PN",
+          "date": "2024-09-13",
+          "encounter_id": "E124771",
+          "text": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 34-year-old female returning for follow-up of fatigue and shortness of breath on exertion. Symptoms stable.\nVITALS: BP 122/91 mmHg, HR 58 bpm, Temp 98.1 F, SpO2 96%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Moreno, note dated 2024-09-13."
+        }
+      ]
+    },
+    {
+      "MRN": "mrn 6710415",
+      "name": {
+        "family": "Underhill",
+        "given": "Luis"
+      },
+      "dob": "03/14/1980",
+      "sex": "N/A",
+      "encounters": [
+        {
+          "encounter_id": "E817547",
+          "type": "inpatient",
+          "start": "20240509",
+          "end": "2024-05-13",
+          "reason": "Fever, flank pain and burning with urination"
+        },
+        {
+          "encounter_id": "E244703",
+          "type": "AMB",
+          "start": "06/08/2024",
+          "end": "20240608",
+          "reason": "Post-discharge follow-up: Fever, flank pain and burning with urination"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03103",
+          "type": "DC SUMM",
+          "date": "May 13, 2024",
+          "encounter_id": "E817547",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-05-09\nDISCHARGE DATE: 2024-05-13\nADMITTING COMPLAINT: Fever, flank pain and burning with urination\nDISCHARGE DIAGNOSES: 1. Acute pyelonephritis (N10)\nHOSPITAL COURSE: Fever resolved within 48 hours on IV ceftriaxone. Cultures grew E. coli, sensitive to ciprofloxacin. Transitioned to oral therapy.\nDISCHARGE MEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "doc_id": "D03104",
+          "type": "progress_note",
+          "date": "06/08/2024",
+          "encounter_id": "E244703",
+          "text": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 44-year-old male returning for follow-up of fever, flank pain and burning with urination. Symptoms stable.\nVITALS: BP 111/66 mmHg, HR 123 bpm, Temp 101.4 F, SpO2 98%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Okonkwo, note dated 2024-06-08."
+        }
+      ]
+    },
+    {
+      "mrn": "MRN-03443462",
+      "patient_name": "Haddad, Jade",
+      "birthDate": "01/11/1941",
+      "gender": "Unknown",
+      "encounters": [
+        {
+          "id": "E210602",
+          "class": "OP",
+          "period_start": "11-Jun-2024",
+          "period_end": "20240611",
+          "reason": "Palpitations and irregular heartbeat"
+        },
+        {
+          "id": "E343469",
+          "class": "ambulatory",
+          "period_start": "08/22/2024",
+          "period_end": "08/22/2024",
+          "reason": "Follow-up: Palpitations and irregular heartbeat"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D03201",
+          "documentType": "progress_note",
+          "documentDate": "06/11/2024",
+          "encounterId": "E210602",
+          "body": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 83-year-old female noticing an irregular pulse on a home monitor, mild exertional fatigue.\nVITALS: BP 157/77 mmHg, HR 59 bpm, Temp 99.4 F, SpO2 97%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Okonkwo, note dated 2024-06-11."
+        },
+        {
+          "id": "D03202",
+          "documentType": "Imaging Report",
+          "documentDate": "11-Jun-2024",
+          "encounterId": "E210602",
+          "body": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-06-11\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: None available.\nFINDINGS: Left ventricular ejection fraction 55%. Left atrium is moderately enlarged. No significant valvular stenosis or regurgitation.\nIMPRESSION: Preserved LVEF with left atrial enlargement.\nRadiologist: Dr. Lindgren"
+        },
+        {
+          "id": "D03203",
+          "documentType": "Progress Note",
+          "documentDate": "08/22/2024",
+          "encounterId": "E343469",
+          "body": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 83-year-old female returning for follow-up of palpitations and irregular heartbeat. Symptoms stable.\nVITALS: BP 139/81 mmHg, HR 79 bpm, Temp 98.5 F, SpO2 98%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Patel, note dated 2024-08-22."
+        }
+      ]
+    },
+    {
+      "mrn": "2409109",
+      "patient_name": "Eriksen, Gavin",
+      "birthDate": "1989-04-19",
+      "gender": "Male",
+      "encounters": [
+        {
+          "id": "E299710",
+          "class": "Inpatient",
+          "period_start": "09/22/2024",
+          "period_end": "2024-09-26",
+          "reason": "Increased shortness of breath and wheezing"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D03301",
+          "documentType": "Progress Note",
+          "documentDate": "09/22/2024",
+          "encounterId": "E299710",
+          "body": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 35-year-old male with COPD and a 40 pack-year smoking history, 3 days of increased sputum, wheeze and dyspnea at rest.\nVITALS: BP 121/71 mmHg, HR 107 bpm, Temp 100.5 F, SpO2 93%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Patel, note dated 2024-09-22."
+        },
+        {
+          "id": "D03302",
+          "documentType": "Misc Document",
+          "documentDate": "2024-09-22",
+          "encounterId": "E299710",
+          "body": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-09-22\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: None available.\nFINDINGS: Hyperinflated lungs with flattened diaphragms and increased retrosternal air space. No focal consolidation, effusion or pneumothorax.\nIMPRESSION: Hyperinflation consistent with COPD. No acute infiltrate.\nRadiologist: Dr. Rivera"
+        }
+      ]
+    },
+    {
+      "MRN": "MRN-08571060",
+      "name": {
+        "family": "Banerjee",
+        "given": "Irene"
+      },
+      "dob": "19371225",
+      "sex": "f",
+      "encounters": [
+        {
+          "encounter_id": "E697137",
+          "type": "OP",
+          "start": "2024-09-17",
+          "end": "09/17/2024",
+          "reason": "Blood pressure follow-up and medication refill"
+        },
+        {
+          "encounter_id": "E574402",
+          "type": "OP",
+          "start": "20241207",
+          "end": "12/7/24",
+          "reason": "Follow-up: Blood pressure follow-up and medication refill"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03402",
+          "type": "PN",
+          "date": "12/07/2024",
+          "encounter_id": "E574402",
+          "text": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 87-year-old female returning for follow-up of blood pressure follow-up and medication refill. Symptoms improving.\nVITALS: BP 112/63 mmHg, HR 111 bpm, Temp 98.8 F, SpO2 97%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Haddad, note dated 2024-12-07."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "#04451583",
+      "FirstName": "Dana",
+      "LastName": "Castillo",
+      "DateOfBirth": "01/06/1999",
+      "Gender": "Female",
+      "Encounters": [
+        {
+          "EncounterID": "E879001",
+          "EncounterType": "inpatient",
+          "AdmitDate": "March 1, 2024",
+          "DischargeDate": "07-Mar-2024",
+          "ChiefComplaint": "Right lower quadrant abdominal pain"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D03501",
+          "DocType": "PN",
+          "ServiceDate": "01-Mar-2024",
+          "EncounterID": "E879001",
+          "Content": "CHIEF COMPLAINT: Right lower quadrant abdominal pain\nHPI: 25-year-old female with 24 hours of periumbilical pain migrating to the right lower quadrant, anorexia and nausea.\nVITALS: BP 143/93 mmHg, HR 96 bpm, Temp 102.8 F, SpO2 96%\nASSESSMENT: Acute appendicitis (K35.80), without perforation.\nPLAN: NPO, IV fluids and antibiotics. Surgical consultation for laparoscopic appendectomy.\nMEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nAttending: Dr. Chen, note dated 2024-03-01."
+        },
+        {
+          "DocumentID": "D03502",
+          "DocType": "Misc Document",
+          "ServiceDate": "01-Mar-2024",
+          "EncounterID": "E879001",
+          "Content": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-03-01\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Dilated appendix measuring 11 mm with periappendiceal fat stranding and an appendicolith. No free air or drainable collection.\nIMPRESSION: Acute uncomplicated appendicitis.\nRadiologist: Dr. Novak"
+        }
+      ]
+    },
+    {
+      "MRN": "4276392",
+      "name": {
+        "family": "Okafor",
+        "given": "Carlos"
+      },
+      "dob": "07/18/1937",
+      "sex": "male",
+      "encounters": [
+        {
+          "encounter_id": "E292542",
+          "type": "IP",
+          "start": "11/30/24",
+          "end": "2024-12-03",
+          "reason": "Cough, fever and shortness of breath"
+        },
+        {
+          "encounter_id": "E608422",
+          "type": "OP",
+          "start": "12/23/24",
+          "end": "12/23/2024",
+          "reason": "Post-discharge follow-up: Cough, fever and shortness of breath"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03601",
+          "type": "Office Visit Note",
+          "date": "2024-11-30",
+          "encounter_id": "E292542",
+          "text": "CHIEF COMPLAINT: Cough, fever and shortness of breath\nHPI: 87-year-old male with worsening dyspnea and fever for 3 days despite over-the-counter antipyretics.\nVITALS: BP 114/76 mmHg, HR 66 bpm, Temp 98.9 F, SpO2 90%\nASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with mild hypoxemia (R09.02).\nPLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep SpO2 above 92%. Repeat chest X-ray in 6 weeks to document resolution.\nMEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nAttending: Dr. Patel, note dated 2024-11-30."
+        },
+        {
+          "doc_id": "D03604",
+          "type": "PN",
+          "date": "23-Dec-2024",
+          "encounter_id": "E608422",
+          "text": "CHIEF COMPLAINT: Cough, fever and shortness of breath\nHPI: 87-year-old male returning for follow-up of cough, fever and shortness of breath. Mild residual symptoms.\nVITALS: BP 119/70 mmHg, HR 81 bpm, Temp 100.7 F, SpO2 92%\nASSESSMENT: Community-acquired pneumonia, right lower lobe (J18.9) with mild hypoxemia (R09.02).\nPLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep SpO2 above 92%. Repeat chest X-ray in 6 weeks to document resolution.\nMEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily for 5 days; acetaminophen as needed.\nAttending: Dr. Rivera, note dated 2024-12-23."
+        }
+      ]
+    },
+    {
+      "MRN": "3666118",
+      "name": {
+        "family": "Yilmaz",
+        "given": "Sven"
+      },
+      "dob": "October 16, 1970",
+      "sex": "m",
+      "encounters": [
+        {
+          "encounter_id": "E105664",
+          "type": "Outpatient",
+          "start": "2024-05-04",
+          "end": "05/04/2024",
+          "reason": "Diabetes follow-up with elevated home glucose readings"
+        },
+        {
+          "encounter_id": "E359597",
+          "type": "Outpatient",
+          "start": "7/3/24",
+          "end": "07/03/2024",
+          "reason": "Follow-up: Diabetes follow-up with elevated home glucose readings"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03701",
+          "type": "progress_note",
+          "date": "05/04/2024",
+          "encounter_id": "E105664",
+          "text": "CHIEF COMPLAINT: Diabetes follow-up with elevated home glucose readings\nHPI: 53-year-old male with long-standing type 2 diabetes, missed several metformin doses, home readings trending upward.\nVITALS: BP 116/77 mmHg, HR 66 bpm, Temp 98.4 F, SpO2 97%\nASSESSMENT: Type 2 diabetes mellitus with hyperglycemia (E11.65). HbA1c above goal.\nPLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg daily. Diabetic foot and eye examinations. Dietitian referral. Recheck HbA1c in 3 months.\nMEDICATIONS: Metformin 1000 mg twice daily; empagliflozin 10 mg daily.\nAttending: Dr. Haddad, note dated 2024-05-04."
+        }
+      ]
+    },
+    {
+      "MRN": "09088410",
+      "name": {
+        "family": "Quintero",
+        "given": "Alma"
+      },
+      "dob": "24-Aug-1975",
+      "sex": "2",
+      "encounters": [
+        {
+          "encounter_id": "E960295",
+          "type": "IP",
+          "start": "10/30/2024",
+          "end": "11/03/2024",
+          "reason": "Worsening leg swelling and difficulty breathing when lying flat"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D03802",
+          "type": "Radiology Report",
+          "date": "2024-10-30",
+          "encounter_id": "E960295",
+          "text": "EXAM: XR CHEST 1 VIEW PORTABLE\nDATE OF EXAM: 2024-10-30\nTECHNIQUE: Portable AP view of the chest.\nCOMPARISON: None available.\nFINDINGS: Cardiomegaly with pulmonary vascular congestion and interstitial edema. Small bilateral pleural effusions.\nIMPRESSION: Findings consistent with congestive heart failure.\nRadiologist: Dr. Novak"
+        },
+        {
+          "doc_id": "D03803",
+          "type": "Radiology Report",
+          "date": "20241031",
+          "encounter_id": "E960295",
+          "text": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-10-31\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Left ventricular ejection fraction approximately 30% with global hypokinesis. Moderate functional mitral regurgitation. Left atrium moderately dilated.\nIMPRESSION: Reduced left ventricular systolic function, LVEF 30%.\nRadiologist: Dr. Lindgren"
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "mrn 2249776",
+      "FirstName": "Alma",
+      "LastName": "Jankowski",
+      "DateOfBirth": "September 2, 1977",
+      "Gender": "F",
+      "Encounters": [
+        {
+          "EncounterID": "E274269",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-08-09",
+          "DischargeDate": "2024-08-09",
+          "ChiefComplaint": "Nephrology follow-up for chronic kidney disease"
+        },
+        {
+          "EncounterID": "E924531",
+          "EncounterType": "OP",
+          "AdmitDate": "2024-10-30",
+          "DischargeDate": "30-Oct-2024",
+          "ChiefComplaint": "Follow-up: Nephrology follow-up for chronic kidney disease"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D03901",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "8/9/24",
+          "EncounterID": "E274269",
+          "Content": "CHIEF COMPLAINT: Nephrology follow-up for chronic kidney disease\nHPI: 46-year-old female with progressive decline in renal function over 18 months, occasional muscle cramps.\nVITALS: BP 118/89 mmHg, HR 96 bpm, Temp 98.9 F, SpO2 96%\nASSESSMENT: Chronic kidney disease stage 3b (N18.32) with hyperkalemia (E87.5).\nPLAN: Dietary potassium restriction. Start patiromer. Avoid NSAIDs. Repeat renal panel in 4 weeks. Renal ultrasound.\nMEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.\nAttending: Dr. Lindgren, note dated 2024-08-09."
+        },
+        {
+          "DocumentID": "D03902",
+          "DocType": "Radiology Report",
+          "ServiceDate": "2024-08-09",
+          "EncounterID": "E274269",
+          "Content": "EXAM: US RETROPERITONEUM RENAL\nDATE OF EXAM: 2024-08-09\nTECHNIQUE: Real-time grayscale and Doppler ultrasound of both kidneys.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Both kidneys are echogenic with reduced cortical thickness. No hydronephrosis, calculi or focal mass.\nIMPRESSION: Chronic medical renal disease without obstruction.\nRadiologist: Dr. Haddad"
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "9132681",
+      "FirstName": "Lena",
+      "LastName": "Sandoval",
+      "DateOfBirth": "20-Sep-1979",
+      "Gender": "f",
+      "Encounters": [
+        {
+          "EncounterID": "E820386",
+          "EncounterType": "Emergency",
+          "AdmitDate": "2024-09-14",
+          "DischargeDate": "2024-09-14",
+          "ChiefComplaint": "Severe headache with sensitivity to light"
+        },
+        {
+          "EncounterID": "E966932",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-09-28",
+          "DischargeDate": "09/28/2024",
+          "ChiefComplaint": "Follow-up: Severe headache with sensitivity to light"
+        }
+      ],
+      "Documents": []
+    },
+    {
+      "mrn": "MRN-06019739",
+      "patient_name": "Yilmaz, Fiona",
+      "birthDate": "2001-03-17",
+      "gender": "f",
+      "encounters": [
+        {
+          "id": "E560266",
+          "class": "ED",
+          "period_start": "2024-05-31",
+          "period_end": "05/31/2024",
+          "reason": "Left wrist pain after a fall"
+        },
+        {
+          "id": "E967659",
+          "class": "AMB",
+          "period_start": "6/14/24",
+          "period_end": "June 14, 2024",
+          "reason": "Follow-up: Left wrist pain after a fall"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D04101",
+          "documentType": "progress_note",
+          "documentDate": "05/31/2024",
+          "encounterId": "E560266",
+          "body": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 23-year-old female slipped on ice and fell on an outstretched left hand. Immediate pain, swelling and deformity of the wrist.\nVITALS: BP 159/72 mmHg, HR 77 bpm, Temp 98.3 F, SpO2 99%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Haddad, note dated 2024-05-31."
+        },
+        {
+          "id": "D04102",
+          "documentType": "RAD",
+          "documentDate": "05/31/2024",
+          "encounterId": "E560266",
+          "body": "EXAM: XR WRIST LEFT 3 VIEWS\nDATE OF EXAM: 2024-05-31\nTECHNIQUE: PA, lateral and oblique views of the left wrist.\nCOMPARISON: None available.\nFINDINGS: Transverse fracture of the distal radial metaphysis with dorsal angulation and mild impaction. No intra-articular extension. Ulnar styloid intact.\nIMPRESSION: Acute distal radius fracture with dorsal angulation.\nRadiologist: Dr. Okonkwo"
+        },
+        {
+          "id": "D04103",
+          "documentType": "Office Visit Note",
+          "documentDate": "2024-06-14",
+          "encounterId": "E967659",
+          "body": "CHIEF COMPLAINT: Left wrist pain after a fall\nHPI: 23-year-old female returning for follow-up of left wrist pain after a fall. Symptoms stable.\nVITALS: BP 149/83 mmHg, HR 76 bpm, Temp 98.5 F, SpO2 97%\nASSESSMENT: Closed distal radius fracture, left (S52.502A), neurovascularly intact.\nPLAN: Reduction under hematoma block and sugar-tong splint. Analgesia. Orthopedic clinic follow-up in 1 week. Elevate and ice.\nMEDICATIONS: Ibuprofen 600 mg every 8 hours as needed; acetaminophen.\nAttending: Dr. Okonkwo, note dated 2024-06-14."
+        }
+      ]
+    },
+    {
+      "mrn": "#03928361",
+      "patient_name": "Banerjee, Irene",
+      "birthDate": "19-Dec-1976",
+      "gender": "2",
+      "encounters": [
+        {
+          "id": "E941400",
+          "class": "Outpatient",
+          "period_start": "27-Sep-2024",
+          "period_end": "2024-09-27",
+          "reason": "Fatigue and shortness of breath on exertion"
+        },
+        {
+          "id": "E209067",
+          "class": "AMB",
+          "period_start": "2024-12-19",
+          "period_end": "19-Dec-2024",
+          "reason": "Follow-up: Fatigue and shortness of breath on exertion"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D04201",
+          "documentType": "progress_note",
+          "documentDate": "2024-09-27",
+          "encounterId": "E941400",
+          "body": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 47-year-old female with 3 months of fatigue, pallor and breathlessness climbing stairs. Heavy menstrual history noted.\nVITALS: BP 138/69 mmHg, HR 71 bpm, Temp 99.1 F, SpO2 96%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Patel, note dated 2024-09-27."
+        },
+        {
+          "id": "D04202",
+          "documentType": "Office Visit Note",
+          "documentDate": "12/19/24",
+          "encounterId": "E209067",
+          "body": "CHIEF COMPLAINT: Fatigue and shortness of breath on exertion\nHPI: 48-year-old female returning for follow-up of fatigue and shortness of breath on exertion. Mild residual symptoms.\nVITALS: BP 154/91 mmHg, HR 84 bpm, Temp 98.0 F, SpO2 96%\nASSESSMENT: Iron deficiency anemia (D50.9). Source evaluation pending.\nPLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and ferritin in 8 weeks. Gastroenterology referral for endoscopic evaluation.\nMEDICATIONS: Ferrous sulfate 325 mg daily with vitamin C.\nAttending: Dr. Chen, note dated 2024-12-19."
+        }
+      ]
+    },
+    {
+      "MRN": "09800617",
+      "name": {
+        "family": "Eriksen",
+        "given": "Hana"
+      },
+      "dob": "03-Feb-1981",
+      "sex": "Female",
+      "encounters": [
+        {
+          "encounter_id": "E997865",
+          "type": "IMP",
+          "start": "13-Jul-2024",
+          "end": "2024-07-16",
+          "reason": "Fever, flank pain and burning with urination"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D04301",
+          "type": "Office Visit Note",
+          "date": "13-Jul-2024",
+          "encounter_id": "E997865",
+          "text": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 43-year-old female with 2 days of dysuria, urinary frequency, fever to 103 F and right flank pain.\nVITALS: BP 156/87 mmHg, HR 123 bpm, Temp 102.3 F, SpO2 98%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Haddad, note dated 2024-07-13."
+        },
+        {
+          "doc_id": "D04302",
+          "type": "RAD",
+          "date": "07/13/2024",
+          "encounter_id": "E997865",
+          "text": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-07-13\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Right kidney is enlarged with striated nephrogram and perinephric stranding. No obstructing calculus, hydronephrosis or drainable abscess.\nIMPRESSION: Findings consistent with acute right pyelonephritis.\nRadiologist: Dr. Chen"
+        },
+        {
+          "doc_id": "D04303",
+          "type": "discharge_summary",
+          "date": "16-Jul-2024",
+          "encounter_id": "E997865",
+          "text": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-07-13\nDISCHARGE DATE: 2024-07-16\nADMITTING COMPLAINT: Fever, flank pain and burning with urination\nDISCHARGE DIAGNOSES: 1. Acute pyelonephritis (N10)\nHOSPITAL COURSE: Fever resolved within 48 hours on IV ceftriaxone. Cultures grew E. coli, sensitive to ciprofloxacin. Transitioned to oral therapy.\nDISCHARGE MEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "mrn": "#07309632",
+      "patient_name": "Sandoval, Omar",
+      "birthDate": "1936-02-14",
+      "gender": "1",
+      "encounters": [
+        {
+          "id": "E320744",
+          "class": "ambulatory",
+          "period_start": "December 22, 2024",
+          "period_end": "12/22/24",
+          "reason": "Palpitations and irregular heartbeat"
+        },
+        {
+          "id": "E335744",
+          "class": "OP",
+          "period_start": "3/16/25",
+          "period_end": "March 16, 2025",
+          "reason": "Follow-up: Palpitations and irregular heartbeat"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D04401",
+          "documentType": "Office Visit Note",
+          "documentDate": "22-Dec-2024",
+          "encounterId": "E320744",
+          "body": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 88-year-old male with intermittent palpitations for 3 weeks, occasional lightheadedness, no syncope.\nVITALS: BP 133/85 mmHg, HR 58 bpm, Temp 98.5 F, SpO2 96%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Lindgren, note dated 2024-12-22."
+        },
+        {
+          "id": "D04402",
+          "documentType": "RAD",
+          "documentDate": "2024-12-22",
+          "encounterId": "E320744",
+          "body": "EXAM: ECHOCARDIOGRAM TRANSTHORACIC\nDATE OF EXAM: 2024-12-22\nTECHNIQUE: Complete transthoracic echocardiogram with Doppler.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Left ventricular ejection fraction 55%. Left atrium is moderately enlarged. No significant valvular stenosis or regurgitation.\nIMPRESSION: Preserved LVEF with left atrial enlargement.\nRadiologist: Dr. Moreno"
+        },
+        {
+          "id": "D04403",
+          "documentType": "Office Visit Note",
+          "documentDate": "20250316",
+          "encounterId": "E335744",
+          "body": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 89-year-old male returning for follow-up of palpitations and irregular heartbeat. Symptoms stable.\nVITALS: BP 119/64 mmHg, HR 98 bpm, Temp 99.0 F, SpO2 98%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Rivera, note dated 2025-03-16."
+        }
+      ]
+    },
+    {
+      "MRN": "mrn 427496",
+      "name": {
+        "family": "Underhill",
+        "given": "Opal"
+      },
+      "dob": "1961-10-14",
+      "sex": "f",
+      "encounters": [
+        {
+          "encounter_id": "E987008",
+          "type": "inpatient",
+          "start": "24-Jun-2024",
+          "end": "2024-06-28",
+          "reason": "Increased shortness of breath and wheezing"
+        }
+      ],
+      "documents": [
+        {
+          "doc_id": "D04501",
+          "type": "PN",
+          "date": "20240624",
+          "encounter_id": "E987008",
+          "text": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 62-year-old female with chronic obstructive pulmonary disease using rescue inhaler every 2 hours, worsening cough.\nVITALS: BP 122/96 mmHg, HR 97 bpm, Temp 99.4 F, SpO2 93%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Chen, note dated 2024-06-24."
+        },
+        {
+          "doc_id": "D04502",
+          "type": "Radiology Report",
+          "date": "24-Jun-2024",
+          "encounter_id": "E987008",
+          "text": "EXAM: XR CHEST 2 VIEWS\nDATE OF EXAM: 2024-06-24\nTECHNIQUE: PA and lateral views of the chest.\nCOMPARISON: None available.\nFINDINGS: Hyperinflated lungs with flattened diaphragms and increased retrosternal air space. No focal consolidation, effusion or pneumothorax.\nIMPRESSION: Hyperinflation consistent with COPD. No acute infiltrate.\nRadiologist: Dr. Moreno"
+        }
+      ]
+    },
+    {
+      "mrn": " 04295448 ",
+      "patient_name": "Jankowski, Victor",
+      "birthDate": "11/11/1936",
+      "gender": "m",
+      "encounters": [
+        {
+          "id": "E719741",
+          "class": "Inpatient",
+          "period_start": "07/18/2024",
+          "period_end": "07/24/2024",
+          "reason": "Fever, flank pain and burning with urination"
+        },
+        {
+          "id": "E629096",
+          "class": "OP",
+          "period_start": "08/21/2024",
+          "period_end": "21-Aug-2024",
+          "reason": "Post-discharge follow-up: Fever, flank pain and burning with urination"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D05502",
+          "documentType": "Imaging Report",
+          "documentDate": "2024-07-18",
+          "encounterId": "E719741",
+          "body": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-07-18\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Right kidney is enlarged with striated nephrogram and perinephric stranding. No obstructing calculus, hydronephrosis or drainable abscess.\nIMPRESSION: Findings consistent with acute right pyelonephritis.\nRadiologist: Dr. Novak"
+        },
+        {
+          "id": "D05504",
+          "documentType": "PN",
+          "documentDate": "2024-08-21",
+          "encounterId": "E629096",
+          "body": "CHIEF COMPLAINT: Fever, flank pain and burning with urination\nHPI: 87-year-old male returning for follow-up of fever, flank pain and burning with urination. Mild residual symptoms.\nVITALS: BP 122/75 mmHg, HR 107 bpm, Temp 102.5 F, SpO2 98%\nASSESSMENT: Acute pyelonephritis (N10) with mild acute kidney injury.\nPLAN: IV ceftriaxone, aggressive hydration. Urine and blood cultures pending. CT abdomen and pelvis to exclude obstruction or abscess.\nMEDICATIONS: Ciprofloxacin 500 mg twice daily for 7 days.\nAttending: Dr. Chen, note dated 2024-08-21."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "01105167",
+      "FirstName": "Kira",
+      "LastName": "Lindqvist",
+      "DateOfBirth": "1977-06-26",
+      "Gender": "Female",
+      "Encounters": [
+        {
+          "EncounterID": "E947876",
+          "EncounterType": "Outpatient",
+          "AdmitDate": "05/19/2024",
+          "DischargeDate": "05/19/2024",
+          "ChiefComplaint": "Palpitations and irregular heartbeat"
+        },
+        {
+          "EncounterID": "E688231",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-07-26",
+          "DischargeDate": "2024-07-26",
+          "ChiefComplaint": "Follow-up: Palpitations and irregular heartbeat"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D05603",
+          "DocType": "Progress Note",
+          "ServiceDate": "26-Jul-2024",
+          "EncounterID": "E688231",
+          "Content": "CHIEF COMPLAINT: Palpitations and irregular heartbeat\nHPI: 47-year-old female returning for follow-up of palpitations and irregular heartbeat. Symptoms improving.\nVITALS: BP 138/64 mmHg, HR 69 bpm, Temp 98.9 F, SpO2 99%\nASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate controlled.\nPLAN: Start apixaban 5 mg twice daily. Continue metoprolol for rate control. Echocardiogram. Check thyroid function.\nMEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate 50 mg daily.\nAttending: Dr. Patel, note dated 2024-07-26."
+        }
+      ]
+    },
+    {
+      "mrn": "08242718",
+      "patient_name": "Quintero, Lena",
+      "birthDate": "10/24/87",
+      "gender": "FEMALE",
+      "encounters": [
+        {
+          "id": "E871111",
+          "class": "IP",
+          "period_start": "25-Sep-2024",
+          "period_end": "20240930",
+          "reason": "Increased shortness of breath and wheezing"
+        }
+      ],
+      "documents": [
+        {
+          "id": "D05701",
+          "documentType": "progress_note",
+          "documentDate": "09/25/2024",
+          "encounterId": "E871111",
+          "body": "CHIEF COMPLAINT: Increased shortness of breath and wheezing\nHPI: 36-year-old female with chronic obstructive pulmonary disease using rescue inhaler every 2 hours, worsening cough.\nVITALS: BP 134/71 mmHg, HR 72 bpm, Temp 101.0 F, SpO2 90%\nASSESSMENT: COPD with acute exacerbation (J44.1), no pneumonia on imaging.\nPLAN: Nebulized albuterol-ipratropium, prednisone 40 mg for 5 days, doxycycline. Smoking cessation counseling. Pulmonary rehabilitation referral.\nMEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nAttending: Dr. Chen, note dated 2024-09-25."
+        },
+        {
+          "id": "D05703",
+          "documentType": "DC SUMM",
+          "documentDate": "09/30/2024",
+          "encounterId": "E871111",
+          "body": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-09-25\nDISCHARGE DATE: 2024-09-30\nADMITTING COMPLAINT: Increased shortness of breath and wheezing\nDISCHARGE DIAGNOSES: 1. COPD with acute exacerbation (J44.1)\nHOSPITAL COURSE: Improved with bronchodilators and steroids, discharged on oral prednisone taper and home nebulizer.\nDISCHARGE MEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium inhaler; albuterol as needed.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "MRN-03507964",
+      "FirstName": "Victor",
+      "LastName": "Gallagher",
+      "DateOfBirth": "1973-06-28",
+      "Gender": "m",
+      "Encounters": [
+        {
+          "EncounterID": "E757547",
+          "EncounterType": "ambulatory",
+          "AdmitDate": "2024-09-23",
+          "DischargeDate": "09/23/2024",
+          "ChiefComplaint": "Blood pressure follow-up and medication refill"
+        },
+        {
+          "EncounterID": "E823104",
+          "EncounterType": "OP",
+          "AdmitDate": "12/16/24",
+          "DischargeDate": "12/16/2024",
+          "ChiefComplaint": "Follow-up: Blood pressure follow-up and medication refill"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D05801",
+          "DocType": "PN",
+          "ServiceDate": "09/23/2024",
+          "EncounterID": "E757547",
+          "Content": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 51-year-old male with essential hypertension, adherent to medications, home readings 130-140/80-90, no headaches or chest pain.\nVITALS: BP 143/71 mmHg, HR 61 bpm, Temp 98.1 F, SpO2 98%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Lindgren, note dated 2024-09-23."
+        },
+        {
+          "DocumentID": "D05802",
+          "DocType": "Progress Note",
+          "ServiceDate": "2024-12-16",
+          "EncounterID": "E823104",
+          "Content": "CHIEF COMPLAINT: Blood pressure follow-up and medication refill\nHPI: 51-year-old male returning for follow-up of blood pressure follow-up and medication refill. Symptoms improving.\nVITALS: BP 146/85 mmHg, HR 109 bpm, Temp 99.3 F, SpO2 98%\nASSESSMENT: Essential hypertension (I10), near goal.\nPLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular exercise. Annual metabolic panel. Return in 6 months.\nMEDICATIONS: Lisinopril 20 mg daily.\nAttending: Dr. Haddad, note dated 2024-12-16."
+        }
+      ]
+    },
+    {
+      "MedicalRecordNumber": "MRN-06025262",
+      "FirstName": "Gwen",
+      "LastName": "Gallagher",
+      "DateOfBirth": "6/30/39",
+      "Gender": "FEMALE",
+      "Encounters": [
+        {
+          "EncounterID": "E510474",
+          "EncounterType": "IMP",
+          "AdmitDate": "2024-12-22",
+          "DischargeDate": "December 25, 2024",
+          "ChiefComplaint": "Right lower quadrant abdominal pain"
+        },
+        {
+          "EncounterID": "E897856",
+          "EncounterType": "OP",
+          "AdmitDate": "01/14/2025",
+          "DischargeDate": "January 14, 2025",
+          "ChiefComplaint": "Post-discharge follow-up: Right lower quadrant abdominal pain"
+        }
+      ],
+      "Documents": [
+        {
+          "DocumentID": "D05901",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "12/22/2024",
+          "EncounterID": "E510474",
+          "Content": "CHIEF COMPLAINT: Right lower quadrant abdominal pain\nHPI: 85-year-old female with 24 hours of periumbilical pain migrating to the right lower quadrant, anorexia and nausea.\nVITALS: BP 127/78 mmHg, HR 107 bpm, Temp 100.9 F, SpO2 96%\nASSESSMENT: Acute appendicitis (K35.80), without perforation.\nPLAN: NPO, IV fluids and antibiotics. Surgical consultation for laparoscopic appendectomy.\nMEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nAttending: Dr. Okonkwo, note dated 2024-12-22."
+        },
+        {
+          "DocumentID": "D05902",
+          "DocType": "XR Report",
+          "ServiceDate": "12/22/2024",
+          "EncounterID": "E510474",
+          "Content": "EXAM: CT ABDOMEN PELVIS WITH CONTRAST\nDATE OF EXAM: 2024-12-22\nTECHNIQUE: Axial CT of the abdomen and pelvis after IV contrast.\nCOMPARISON: No prior studies for comparison.\nFINDINGS: Dilated appendix measuring 11 mm with periappendiceal fat stranding and an appendicolith. No free air or drainable collection.\nIMPRESSION: Acute uncomplicated appendicitis.\nRadiologist: Dr. Lindgren"
+        },
+        {
+          "DocumentID": "D05903",
+          "DocType": "discharge_summary",
+          "ServiceDate": "2024-12-25",
+          "EncounterID": "E510474",
+          "Content": "DISCHARGE SUMMARY\nADMISSION DATE: 2024-12-22\nDISCHARGE DATE: 2024-12-25\nADMITTING COMPLAINT: Right lower quadrant abdominal pain\nDISCHARGE DIAGNOSES: 1. Acute appendicitis (K35.80)\nHOSPITAL COURSE: Underwent uncomplicated laparoscopic appendectomy. Tolerating diet on day 1, discharged on day 2.\nDISCHARGE MEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nFOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with patient."
+        },
+        {
+          "DocumentID": "D05904",
+          "DocType": "Office Visit Note",
+          "ServiceDate": "14-Jan-2025",
+          "EncounterID": "E897856",
+          "Content": "CHIEF COMPLAINT: Right lower quadrant abdominal pain\nHPI: 85-year-old female returning for follow-up of right lower quadrant abdominal pain. Symptoms improving.\nVITALS: BP 162/93 mmHg, HR 120 bpm, Temp 102.4 F, SpO2 98%\nASSESSMENT: Acute appendicitis (K35.80), without perforation.\nPLAN: NPO, IV fluids and antibiotics. Surgical consultation for laparoscopic appendectomy.\nMEDICATIONS: Acetaminophen and ibuprofen as needed for pain.\nAttending: Dr. Patel, note dated 2025-01-14."
+        }
+      ]
+    }
+  ]
+}

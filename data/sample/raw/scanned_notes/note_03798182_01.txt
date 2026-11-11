@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.93 ***
+PATIENT NAME: YILMAZ, FIONA
+MRN: 03798182
+DOB: 08/11/2001    SEX: Female
+DATE OF SERVICE: 2024-09-15
+DOCUMENT TYPE: PROGRESS_NOTE
+ENCOUNTER: E137118
+------------------------------------------------------------
+CHIEF  COMPLAINT: Blood pressure  follow-up and  medication  refill
+HPI: 23-year-old female presenting for routine hypertension review, no
+side effects from lisinopril.
+VITALS: BP 139/96 mmHg, HR  107  bpm, Temp 98.3 F, SpO2  96%
+ASSESSMENT: Essential hypertension (I10), near goal.
+PLAN: Continue lisinopril 20 mg daily. Low-sodium diet, regular
+exercise. Annual  metabolic panel. Return in  6  months.
+MEDICATIONS: Lisinopril  20 mg daily.
+Attending: Dr. Lindgren, note dated 2024-09-15.

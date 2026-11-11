@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.94 ***
+PATIENT NAME: ZIELINSKI, LUIS
+MRN: 06912272
+DOB: 03/26/1962    SEX: male
+DATE OF SERVICE: 12/04/2024
+DOCUMENT TYPE: PN
+ENCOUNTER: E679738
+------------------------------------------------------------
+CHIEF  COMPLAINT: Blood pressure  fo1low-up and medication refill
+HPI: 62-year-old male presenting for  routine  hypertension  review, no
+side effects from lisinopril.
+VITALS: BP 111/86 mmHg, HR 60 bpm, Temp 98.1 F, SpO2  96%
+ASSESSMENT: Essentia1 hypertension (I10), near goal.
+PLAN: Continue lisinopril 20 mg daily. Low-sodium  diet, regular
+exercise. Annual metabolic panel. Return in  6 months.
+MEDICATIONS: Lisinopril 20 mg daily.
+Attending: Dr. Novak, note dated 2024-12-04.

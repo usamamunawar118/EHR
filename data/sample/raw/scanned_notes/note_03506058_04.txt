@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.91 ***
+PATIENT NAME: QUINTERO, LENA
+MRN: 03506058
+DOB: 11/25/1978    SEX: female
+DATE OF SERVICE: 03-Sep-2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E802005
+------------------------------------------------------------
+CHIEF COMPLAINT: Cough, fever  and shortness  of breath
+HPI: 45-year-old female  returning for follow-up  of cough, fever and
+shortness  of breath. Mild residual  symptoms.
+VITALS: BP 161/94 mmHg, HR 94 bpm, Temp 99.0 F, SpO2  91%
+ASSESSMENT: Community-acquired pneumonia, right  lower lobe (J18.9) with
+mild hypoxemia (R09.02).
+PLAN: Start ceftriaxone and azithromycin. Supplemental oxygen to keep
+SpO2 above 92%. Repeat chest X-ray in 6 weeks  to  document resolution.
+MEDICATIONS: Amoxicillin-clavulanate 875 mg twice daily  for 5 days;
+acetaminophen as needed.
+Attending: Dr. Haddad, note  dated  2024-09-03.

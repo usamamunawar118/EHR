@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.86 ***
+PATIENT NAME: BANERJEE, OPAL
+MRN: OO741413
+DOB: 01/04/1949    SEX: Female
+DATE OF SERVICE: 11/27/2024
+DOCUMENT TYPE: PN
+ENCOUNTER: E335858
+------------------------------------------------------------
+CHIEF COMPLAINT: Severe headache with sensitivity to light
+HPI: 75-year-old female with sudden onset  throbbing right-sided headach-
+e, nausea and photophobia for 10  hours. History of similar  episodes.
+VITALS: BP  146/81 mmHg, HR 61  bpm, Temp 98.5  F, SpO2  98%
+ASSESSMENT: Migraine without aura (G43.009). No red-flag features  on
+examination.
+PLAN: IV fluids, metoclopramide and ketorolac with  improvement. CT  head
+to exclude acute pathology. Outpatient neurology  follow-up.
+MEDICATIONS: Sumatriptan 50 mg  as needed; ondansetron 4 mg as needed.
+Attending: Dr. Lindgren, note dated  2024-11-27.

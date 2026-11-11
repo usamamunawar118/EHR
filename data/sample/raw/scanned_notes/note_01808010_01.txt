@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.82 ***
+PATIENT NAME: JANKOWSKI, ALMA
+MRN: 01808010
+DOB: 06/17/2003    SEX: Female
+DATE OF SERVICE: 2024-09-12
+DOCUMENT TYPE: PN
+ENCOUNTER: E995256
+------------------------------------------------------------
+CHIEF COMPLAINT: Diabetes follow-up  with elevated home  glucose readings
+HPI: 21-year-old female with long-standing type 2  diabetes, missed
+several  metformin doses, home  readings trending  upward.
+VITALS: BP 162/79 mmHg, HR  60 bpm, Temp 98.1  F, SpO2  99%
+ASSESSMENT: Type 2  diabetes  mellitus with  hyperglycemia (E11.65). HbA1c
+above goal.
+PLAN: Increase metformin to 1000 mg twice daily, add empagliflozin 10 mg
+daily. Diabetic  foot  and eye examinations. Dietitian referral. Recheck
+HbA1c in  3 months.
+MEDICATIONS: Metformin 1000 mg twice daily; empagliflozin  10 mg daily.
+Attending: Dr. Haddad, note  dated 2024-09-12.

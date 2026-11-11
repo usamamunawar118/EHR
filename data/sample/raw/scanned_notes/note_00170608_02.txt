@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: DVORAK, OMAR
+MRN: 00170608
+DOB: 04/08/1963    SEX: M
+DATE OF SERVICE: 07/06/2024
+DOCUMENT TYPE: IMAGING REPORT
+ENCOUNTER: E736496
+------------------------------------------------------------
+EXAM: XR CHEST 1 VIEW  PORTABLE
+DATE OF EXAM: 2024-07-06
+TECHNIQUE: Portable AP view of the chest.
+COMPARISON: None available.
+FINDINGS: Cardiomegaly with pulmonary vascular congestion  and
+interstitial edema. Small bilateral pleural effusions.
+IMPRESSION: Findings consistent with congestive heart failure.
+Radiologist: Dr. Okonkwo

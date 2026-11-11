@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.82 ***
+PATIENT NAME: UNDERHILL, LUIS
+MRN: 06710415
+DOB: 03/14/1980    SEX: N/A
+DATE OF SERVICE: 2024-05-09
+DOCUMENT TYPE: XR REPORT
+ENCOUNTER: E817547
+------------------------------------------------------------
+EXAM: CT ABDOMEN PELVIS WITH  CONTRAST
+DATE OF EXAM: 2024-05-09
+TECHNIQUE: Axial  CT of the  abdomen and  pelvis  after  IV  contrast.
+COMPARISON: None available.
+FINDINGS: Right  kidney is enlarged with  striated  nephrogram and
+perinephric stranding. No obstructing calculus, hydronephrosis or drain-
+able abscess.
+IMPRESSION: Findings consistent with acute right  pyelonephritis.
+Radiologist: Dr. Haddad

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: CASTILLO, DANA
+MRN: 04451583
+DOB: 01/06/1999    SEX: FEMALE
+DATE OF SERVICE: 2024-03-07
+DOCUMENT TYPE: DC SUMM
+ENCOUNTER: E879001
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-03-01
+DISCHARGE DATE: 2024-03-07
+ADMITTING COMPLAINT: Right lower quadrant abdominal pain
+DISCHARGE DIAGNOSES: 1. Acute appendicitis (K35.80)
+HOSPITAL COURSE: Underwent uncomplicated  laparoscopic appendectomy.
+Tolerating diet on  day 1, discharged on day 2.
+DISCHARGE MEDICATIONS: Acetaminophen  and ibuprofen as needed for pain.
+FOLLOW-UP: Primary  care in  1-2 weeks. Return  precautions reviewed with
+patient.

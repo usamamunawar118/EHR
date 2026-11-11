@@ -1,0 +1,5 @@
+# Keep line endings identical on every OS (sample data is compared byte-for-byte in tests).
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.woff2 binary

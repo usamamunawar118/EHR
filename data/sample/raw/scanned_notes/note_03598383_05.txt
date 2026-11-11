@@ -1,0 +1,21 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.88 ***
+PATIENT NAME: SANDOVAL, ADAM
+MRN: 03598383
+DOB: 02/25/1982    SEX: 1
+DATE OF SERVICE: 11/18/2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E691461
+------------------------------------------------------------
+CHIEF COMPLAINT: Worsening  leg swelling and difficulty  breathing when
+lying flat
+HPI: 42-year-old male returning for follow-up of worsening leg swelling
+and difficulty breathing when lying flat. Symptoms stable.
+VITALS: BP  135/78  mmHg, HR 106  bpm, Temp 99.3  F, SpO2 98%
+ASSESSMENT: Acute on chronic  systolic heart failure (I50.23), volume
+overloaded.
+PLAN: IV furosemide  with strict intake and output. Daily  weights.
+Continue  guideline-directed therapy. Cardiology consult and
+echocardiogram.
+MEDICATIONS: Torsemide 40 mg daily; carvedilol 12.5 mg  twice daily;
+sacubitril-valsartan.
+Attending: Dr. Okonkwo, note dated  2024-11-18.

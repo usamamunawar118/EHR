@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.93 ***
+PATIENT NAME: LINDQVIST, KIRA
+MRN: 01105167
+DOB: 06/26/1977    SEX: female
+DATE OF SERVICE: 05/19/2024
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E947876
+------------------------------------------------------------
+CHIEF COMPLAINT: Palpitations  and irregular  heartbeat
+HPI: 46-year-old  female with intermittent  palpitations  for  3 weeks,
+occasional  lightheadedness, no syncope.
+VITALS: BP  143/63 mmHg, HR 93 bpm, Temp 98.2 F, SpO2 98%
+ASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate
+controlled.
+PLAN: Start  apixaban 5 mg twice  daily. Continue metoprolol for rate
+control. Echocardiogram. Check thyroid function.
+MEDICATIONS: Apixaban 5 mg twice daily; metoprolol succinate  50 mg
+daily.
+Attending: Dr. Novak, note dated  2024-05-19.

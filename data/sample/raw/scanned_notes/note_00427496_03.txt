@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: UNDERHILL, OPAL
+MRN: 00427496
+DOB: 10/14/1961    SEX: f
+DATE OF SERVICE: 06/28/2024
+DOCUMENT TYPE: DISCHARGE_SUMMARY
+ENCOUNTER: E987008
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-06-24
+DISCHARGE DATE: 2024-06-28
+ADMITTING COMPLAINT: Increased shortness of  breath and wheezing
+DISCHARGE DIAGNOSES: 1. COPD with acute exacerbation (J44.1)
+HOSPITAL COURSE: Improved with bronchodilators and steroids, discharged
+on oral prednisone taper and home nebulizer.
+DISCHARGE  MEDICATIONS: Prednisone 40 mg daily for 5 days; tiotropium
+inhaler; albuterol  as needed.
+FOLLOW-UP: Primary care  in 1-2 weeks. Return precautions  reviewed with
+patient.

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: NAKAMURA, MARA
+MRN: 02032631
+DOB: 01/08/1976    SEX: 2
+DATE OF SERVICE: 08/08/2024
+DOCUMENT TYPE: DISCHARGE SUMMARY
+ENCOUNTER: E119043
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-08-04
+DISCHARGE DATE: 2024-08-08
+ADMITTING COMPLAINT: Right lower quadrant abdominal pain
+DISCHARGE DIAGNOSES: 1. Acute appendicitis (K35.80)
+HOSPITAL COURSE: Underwent uncomplicated laparoscopic appendectomy. Tol-
+erating diet on day 1, discharged on day 2.
+DISCHARGE MEDICATIONS: Acetaminophen and ibuprofen  as needed for pain.
+FOLLOW-UP: Primary care in 1-2 weeks. Return precautions reviewed with
+patient.

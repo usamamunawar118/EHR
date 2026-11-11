@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.93 ***
+PATIENT NAME: QUINTERO, NICO
+MRN: 02906031
+DOB: 04/05/1992    SEX: male
+DATE OF SERVICE: 5/17/24
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E427265
+------------------------------------------------------------
+EXAM: XR  CHEST 2 VIEWS
+DATE OF EXAM: 2024-05-17
+TECHNIQUE: PA and lateral views of the chest.
+COMPARISON: None available.
+FINDINGS: Hyperinflated  lungs with  flattened diaphragms and increased
+retrosternal air space. No  focal consolidation, effusion or
+pneumothorax.
+IMPRESSION: Hyperinflation  consistent  with COPD. No acute infiltrate.
+Radiologist: Dr. Chen

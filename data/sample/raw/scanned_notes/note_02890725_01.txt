@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.88 ***
+PATIENT NAME: GALLAGHER, GWEN
+MRN: 02890725
+DOB: UNKNOWN    SEX: Female
+DATE OF SERVICE: 2024-11-26
+DOCUMENT TYPE: PN
+ENCOUNTER: E644097
+------------------------------------------------------------
+CHIEF COMPLAINT: Severe headache with sensitivity to light
+HPI: 25-year-old female with recurrent  headaches, today severe with
+vomiting  and visual shimmering. No head trauma, no fever.
+VITALS: BP 148/75 mmHg, HR 59 bpm, Temp 98.8 F, SpO2 96%
+ASSESSMENT: Migraine without aura (G43.009). No red-flag features on
+examination.
+PLAN: IV fluids, metoclopramide and ketorolac  with improvement. CT head
+to exclude acute pathology. Outpatient  neurology follow-up.
+MEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg  as  needed.
+Attending: Dr. Patel, note dated 2024-11-26.

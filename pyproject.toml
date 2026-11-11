@@ -1,0 +1,89 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ehr-media"
+version = "0.1.0"
+description = "EHR Media Intelligence Platform: ingest, FHIR R4 normalisation, AI summaries and semantic search."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.9,<3",
+    "pydantic-settings>=2.5",
+    "fhir.resources>=8.0",
+    "sentence-transformers>=3.0",
+    "chromadb>=1.0",
+    "anthropic>=0.40",
+    "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "pytest-cov>=5.0",
+    "httpx>=0.27",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "pre-commit>=3.8",
+]
+
+[project.scripts]
+ehr = "ehr_media.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ehr_media"]
+
+# --------------------------------------------------------------------------- #
+# Tooling
+# --------------------------------------------------------------------------- #
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "SIM", "C4", "RUF", "N", "PT"]
+ignore = [
+    "RUF001",  # ambiguous unicode in strings (clinical text fixtures use real symbols)
+    "RUF002",
+    "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["PT011"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["src"]
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["chromadb.*", "sentence_transformers.*", "fhir.resources.*", "fhir_core.*"]
+ignore_missing_imports = true
+follow_imports = "skip"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config -m 'not slow and not live and not perf'"
+markers = [
+    "slow: loads the real sentence-transformer model (downloads weights on first run)",
+    "live: calls a real LLM API (needs ANTHROPIC_API_KEY)",
+    "perf: latency assertions",
+]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.coverage.run]
+source = ["ehr_media"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_also = ["if TYPE_CHECKING:", "raise NotImplementedError", "\\.\\.\\."]

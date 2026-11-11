@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.91 ***
+PATIENT NAME: BANERJEE, IRENE
+MRN: 08571060
+DOB: 12/25/1937    SEX: f
+DATE OF SERVICE: 17-Sep-2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E697137
+------------------------------------------------------------
+CHIEF COMPLAINT: Blood  pressure  follow-up and medication refill
+HPI: 86-year-old female  presenting  for routine hypertension review, no
+side effects from  lisinopril.
+VITALS: BP  109/95 mmHg, HR 94 bpm, Temp 98.2 F, SpO2 97%
+ASSESSMENT: Essential hypertension (I10), near goal.
+PLAN: Continue lisinopril 20 mg daily. Low-sodium  diet, regular  exercis-
+e. Annual metabolic panel. Return  in  6  months.
+MEDICATIONS: Lisinopril  20 mg  daily.
+Attending: Dr. Moreno, note dated 2024-09-17.

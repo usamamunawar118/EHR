@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.96 ***
+PATIENT NAME: NAKAMURA, MARA
+MRN: 02032631
+DOB: 01/08/1976    SEX: FEMALE
+DATE OF SERVICE: 04-Aug-2024
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E119043
+------------------------------------------------------------
+EXAM: CT ABDOMEN PELVIS WITH CONTRAST
+DATE OF EXAM: 2024-08-04
+TECHNIQUE: Axial CT of the  abdomen and  pelvis after IV contrast.
+COMPARISON: No  prior studies for comparison.
+FINDINGS: Dilated appendix measuring 11 mm  with periappendiceal fat
+stranding  and  an  appendicolith. No free air or  drainable  collection.
+IMPRESSION: Acute  uncomplicated  appendicitis.
+Radiologist: Dr. Novak

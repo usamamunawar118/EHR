@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.86 ***
+PATIENT NAME: DVORAK, OMAR
+MRN: 05523248
+DOB: UNKNOWN    SEX: MALE
+DATE OF SERVICE: 06/18/2024
+DOCUMENT TYPE: PN
+ENCOUNTER: E450622
+------------------------------------------------------------
+CHIEF COMPLAINT: Fatigue and shortness of breath on exertion
+HPI: 23-year-old male returning for follow-up of fatigue  and shortness
+of breath on  exertion. Mild  residual symptoms.
+VITALS: BP  148/90  mmHg, HR 84 bpm, Temp 99.1 F, SpO2 98%
+ASSESSMENT: Iron  deficiency anemia (D50.9). Source evaluation  pending.
+PLAN: Start oral ferrous  sulfate  325 mg daily. Repeat CBC and ferritin
+in 8 weeks. Gastroenterology referral for  endoscopic evaluation.
+MEDICATIONS: Ferrous  sulfate  325 mg  daily with  vitamin C.
+Attending: Dr. Novak, note  dated  2024-06-18.

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.83 ***
+PATIENT NAME: OKAFOR, IVAN
+MRN: 01774272
+DOB: 05/30/1978    SEX: m
+DATE OF SERVICE: 2024-10-15
+DOCUMENT TYPE: DISCHARGE_SUMMARY
+ENCOUNTER: E878549
+------------------------------------------------------------
+DISCHARGE SUMMARY
+ADMISSION DATE: 2024-10-10
+DISCHARGE DATE: 2024-10-15
+ADMITTING  COMPLAINT: Right lower quadrant  abdominal pain
+DISCHARGE DIAGNOSES: 1. Acute appendicitis (K35.80)
+HOSPITAL COURSE: Underwent uncomplicated  laparoscopic appendectomy.
+Tolerating  diet on  day 1, discharged on day 2.
+DISCHARGE MEDICATIONS: Acetaminophen and ibuprofen as needed for pain.
+FOLLOW-UP: Primary care in 1-2 weeks. Return  precautions  reviewed  with
+patient.

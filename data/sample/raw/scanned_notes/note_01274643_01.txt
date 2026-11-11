@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.96 ***
+PATIENT NAME: UNDERHILL, GWEN
+MRN: 01274643
+DOB: 08/10/1990    SEX: N/A
+DATE OF SERVICE: 09-Jul-2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E218823
+------------------------------------------------------------
+CHIEF COMPLAINT: Fatigue  and shortness of breath on  exertion
+HPI: 33-year-old female with  3 months  of fatigue, pallor and
+breathlessness climbing stairs. Heavy menstrual  history noted.
+VITALS: BP 135/64 mmHg, HR 91  bpm, Temp 99.2 F, SpO2 99%
+ASSESSMENT: Iron  deficiency anemia (D50.9). Source evaluation pending.
+PLAN: Start oral ferrous sulfate 325 mg daily. Repeat CBC and  ferritin
+in 8  weeks. Gastroenterology referral  for endoscopic evaluation.
+MEDICATIONS: Ferrous sulfate  325 mg daily  with vitamin  C.
+Attending: Dr. Chen, note dated 2024-07-09.

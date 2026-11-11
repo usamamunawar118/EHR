@@ -1,0 +1,16 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.95 ***
+PATIENT NAME: NAKAMURA, GAVIN
+MRN: 00444456
+DOB: 08/30/1983    SEX: MALE
+DATE OF SERVICE: October 3, 2024
+DOCUMENT TYPE: RADIOLOGY REPORT
+ENCOUNTER: E964590
+------------------------------------------------------------
+EXAM: CT  ABDOMEN  PELVIS WITH CONTRAST
+DATE OF EXAM: 2024-10-03
+TECHNIQUE: Axial CT of  the abdomen and pelvis after IV contrast.
+COMPARISON: No prior studies for  comparison.
+FINDINGS: Dilated  appendix  measuring 11 mm with periappendiceal fat
+stranding and an appendicolith. No free air  or  drainable collection.
+IMPRESSION: Acute  uncomplicated  appendicitis.
+Radiologist: Dr. Lindgren

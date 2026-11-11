@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.97 ***
+PATIENT NAME: ERIKSEN, PAVEL
+MRN: 07200686
+DOB: 03/28/1994    SEX: male
+DATE OF SERVICE: June 18, 2024
+DOCUMENT TYPE: RAD
+ENCOUNTER: E418330
+------------------------------------------------------------
+EXAM: CT HEAD WITHOUT  CONTRAST
+DATE OF  EXAM: 2024-06-18
+TECHNIQUE: Axial  non-contrast CT of the head.
+COMPARISON: No prior studies  for  comparison.
+FINDINGS: No acute intracranial hemorrhage, mass effect or large
+territorial infarct. Ventricles and  sulci  are normal. Paranasal sinuses
+are clear.
+IMPRESSION: Negative non-contrast CT of the  head.
+Radiologist: Dr. Okonkwo

@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.93 ***
+PATIENT NAME: JANKOWSKI, ALMA
+MRN: 02249776
+DOB: 09/02/1977    SEX: F
+DATE OF SERVICE: 30-Oct-2024
+DOCUMENT TYPE: PROGRESS NOTE
+ENCOUNTER: E924531
+------------------------------------------------------------
+CHIEF COMPLAINT: Nephrology follow-up for  chronic  kidney disease
+HPI: 47-year-old female returning for  follow-up of nephrology follow-up
+for  chronic kidney disease. Mild residual symptoms.
+VITALS: BP 128/81 mmHg, HR 61 bpm, Temp  98.6  F, SpO2  98%
+ASSESSMENT: Chronic kidney  disease stage 3b (N18.32) with hyperkalemia
+(E87.5).
+PLAN: Dietary potassium restriction. Start  patiromer. Avoid NSAIDs.
+Repeat renal panel  in 4 weeks. Renal  ultrasound.
+MEDICATIONS: Patiromer 8.4 g daily; amlodipine 5 mg daily.
+Attending: Dr. Novak, note dated 2024-10-30.

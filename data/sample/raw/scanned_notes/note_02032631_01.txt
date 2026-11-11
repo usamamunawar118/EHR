@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.86 ***
+PATIENT NAME: NAKAMURA, MARA
+MRN: 02032631
+DOB: 01/08/1976    SEX: F
+DATE OF SERVICE: August 4, 2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E119043
+------------------------------------------------------------
+CHIEF COMPLAINT: Right  lower quadrant  abdominal pain
+HPI: 48-year-old  female with progressive right lower quadrant  pain,
+low-grade fever and rebound tenderness.
+VITALS: BP 130/89 mmHg, HR 102 bpm, Temp  100.9 F, SpO2  97%
+ASSESSMENT: Acute appendicitis (K35.80), without perforation.
+PLAN: NPO, IV  fluids  and antibiotics. Surgical consultation for
+laparoscopic appendectomy.
+MEDICATIONS: Acetaminophen and ibuprofen as needed for  pain.
+Attending: Dr. Moreno, note dated 2024-08-04.

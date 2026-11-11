@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.85 ***
+PATIENT NAME: UNDERHILL, RAMI
+MRN: 00640253
+DOB: 12/30/1953    SEX: Male
+DATE OF SERVICE: 05/18/2024
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E512046
+------------------------------------------------------------
+CHIEF  COMPLAINT: Fever, flank  pain and burning with urination
+HPI: 70-year-old ma1e with chills, rigors and costovertebral angle tend-
+erness after  severa1 days of urinary symptoms.
+VITALS: BP 121/94 mmHg, HR 99 bpm, Temp 102.3 F, SpO2 97%
+ASSESSMENT: Acute pyelonephritis (N10) with mild  acute kidney injury.
+PLAN: IV ceftriaxone, aggressive hydration. Urine  and blood cultures
+pending. CT  abdomen and pelvis to exclude  obstruction or abscess.
+MEDICATIONS: Ciprofloxacin  500  mg  twice daily for 7 days.
+Attending: Dr. Moreno, note  dated 2024-05-18.

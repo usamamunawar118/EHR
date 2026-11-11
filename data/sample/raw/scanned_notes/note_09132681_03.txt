@@ -1,0 +1,18 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.89 ***
+PATIENT NAME: SANDOVAL, LENA
+MRN: 09132681
+DOB: 09/20/1979    SEX: Female
+DATE OF SERVICE: September 28, 2024
+DOCUMENT TYPE: PROGRESS_NOTE
+ENCOUNTER: E966932
+------------------------------------------------------------
+CHIEF COMPLAINT: Severe headache with sensitivity to light
+HPI: 45-year-old female  returning for follow-up of severe headache with
+sensitivity to  light. Symptoms improving.
+VITALS: BP 138/75 mmHg, HR 73 bpm, Temp 98.1  F, SpO2 97%
+ASSESSMENT: Migraine  without aura (G43.009). No red-flag features on
+examination.
+PLAN: IV fluids, metoclopramide and  ketorolac  with improvement. CT head
+to  exclude  acute  pathology. Outpatient neurology follow-up.
+MEDICATIONS: Sumatriptan 50 mg as needed; ondansetron 4 mg as needed.
+Attending: Dr. Okonkwo, note dated 2024-09-28.

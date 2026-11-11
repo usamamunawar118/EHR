@@ -1,0 +1,17 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.84 ***
+PATIENT NAME: NAKAMURA, CARLA
+MRN: 03874329
+DOB: 02/22/1945    SEX: FEMALE
+DATE OF SERVICE: 2024-08-15
+DOCUMENT TYPE: RAD
+ENCOUNTER: E165536
+------------------------------------------------------------
+EXAM: XR  WRIST LEFT  3 VIEWS
+DATE OF EXAM: 2024-08-15
+TECHNIQUE: PA, lateral and oblique views  of  the left wrist.
+COMPARISON: No prior studies for comparison.
+FINDINGS: Transverse fracture of  the distal radial metaphysis  with
+dorsal  angulation  and  mild impaction. No intra-articular  extension.
+Ulnar styloid  intact.
+IMPRESSION: Acute  distal  radius  fracture with dorsal angulation.
+Radiologist: Dr. Moreno

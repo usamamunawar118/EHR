@@ -1,0 +1,19 @@
+*** SCANNED DOCUMENT - OCR CONFIDENCE 0.97 ***
+PATIENT NAME: UNDERHILL, PAVEL
+MRN: 06564150
+DOB: 10/13/1993    SEX: m
+DATE OF SERVICE: 10/17/24
+DOCUMENT TYPE: OFFICE VISIT NOTE
+ENCOUNTER: E693113
+------------------------------------------------------------
+CHIEF COMPLAINT: Palpitations and irregular  heartbeat
+HPI: 31-year-old male returning for follow-up of palpitations and irreg-
+ular heartbeat. Symptoms improving.
+VITALS: BP 151/95 mmHg, HR  73  bpm, Temp 99.1  F, SpO2 99%
+ASSESSMENT: Atrial fibrillation (I48.91), CHA2DS2-VASc score 3, rate
+controlled.
+PLAN: Start  apixaban 5 mg  twice daily. Continue metoprolol for rate
+control. Echocardiogram. Check thyroid function.
+MEDICATIONS: Apixaban 5  mg twice daily; metoprolol succinate 50 mg
+daily.
+Attending: Dr. Lindgren, note dated  2024-10-17.
