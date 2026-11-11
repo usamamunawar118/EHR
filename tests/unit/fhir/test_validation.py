@@ -16,7 +16,7 @@ from ehr_media.fhir.validation import (
     ValidationIssue,
     validate_bundle,
 )
-from tests.unit.fhir.conftest import find
+from tests.helpers import find
 
 
 def issues(result: BundleValidation, code: str) -> list[ValidationIssue]:

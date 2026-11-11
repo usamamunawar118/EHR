@@ -63,3 +63,16 @@ def enc_a(
         "end": end or start,
         "reason": "visit",
     }
+
+
+IMAGING_TEXT = (
+    "EXAM: XR CHEST 2 VIEWS\nTECHNIQUE: PA and lateral.\n"
+    "FINDINGS: Right lower lobe consolidation.\nIMPRESSION: Right lower lobe pneumonia."
+)
+
+
+def find(bundle: dict[str, Any], resource_type: str) -> list[dict[str, Any]]:
+    """All resources of ``resource_type`` inside a Bundle dict."""
+    return [
+        e["resource"] for e in bundle["entry"] if e["resource"]["resourceType"] == resource_type
+    ]

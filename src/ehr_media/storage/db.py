@@ -48,6 +48,20 @@ MIGRATIONS: tuple[str, ...] = (
     CREATE INDEX idx_resources_patient ON fhir_resources(patient_id);
     CREATE INDEX idx_resources_type_date ON fhir_resources(resource_type, effective_date);
     """,
+    # 2: AI summary cache. Keyed by patient + content hash of the bundle + prompt version + model
+    # so editing records, the prompt or the model can never serve a stale summary.
+    """
+    CREATE TABLE summary_cache (
+        patient_id     TEXT NOT NULL,
+        record_hash    TEXT NOT NULL,
+        prompt_version TEXT NOT NULL,
+        model          TEXT NOT NULL,
+        summary_json   TEXT NOT NULL,
+        created_at     TEXT NOT NULL,
+        PRIMARY KEY (patient_id, record_hash, prompt_version, model)
+    );
+    CREATE INDEX idx_summary_patient ON summary_cache(patient_id, created_at);
+    """,
 )
 
 

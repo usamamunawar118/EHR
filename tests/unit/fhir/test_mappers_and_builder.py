@@ -10,7 +10,7 @@ from ehr_media.fhir.builder import PatientBundle, build_patient_bundle
 from ehr_media.fhir.ids import resource_id, urn
 from ehr_media.fhir.validation import validate_bundle
 from ehr_media.ingestion.models import PatientRecord
-from tests.unit.fhir.conftest import IMAGING_TEXT, find
+from tests.helpers import IMAGING_TEXT, find
 
 
 def decode(attachment: dict[str, Any]) -> str:

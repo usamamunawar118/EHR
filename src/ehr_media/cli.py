@@ -4,6 +4,8 @@ ehr generate-data    create the synthetic raw inputs
 ehr ingest           Task 1 - clean raw inputs into the canonical IR + audit log
 ehr build-fhir       Task 2 - map to FHIR R4 Bundles, validate, report, store (SQLite)
 ehr validate         Task 2 - (re)validate stored Bundles or a single Bundle file
+ehr summarize        Task 3 - AI summaries (cached by patient + record hash + prompt + model)
+ehr eval-summaries   Task 3 - score stored summaries (word limit, grounding, recall)
 """
 
 from __future__ import annotations
@@ -142,6 +144,75 @@ def validate(
     report = build_report(validations)
     _echo_validation(settings.reports_dir, report)
     if strict and report.bundles_invalid:
+        raise typer.Exit(code=1)
+
+
+@app.command()
+def summarize(
+    limit: Annotated[int | None, typer.Option(help="Only summarise the first N patients.")] = None,
+    force: Annotated[bool, typer.Option(help="Ignore the cache and call the LLM again.")] = False,
+    provider: Annotated[
+        str | None, typer.Option(help="Override EHR_LLM_PROVIDER: auto | anthropic | fake.")
+    ] = None,
+) -> None:
+    """Task 3: generate (or reuse cached) AI summaries for every stored patient."""
+    from ehr_media.storage.bundle_repo import BundleRepository
+    from ehr_media.storage.db import Database
+    from ehr_media.storage.summary_cache import SummaryCache
+    from ehr_media.summarization.llm import create_llm
+    from ehr_media.summarization.service import SummaryService
+
+    settings = get_settings()
+    if provider:
+        if provider not in ("auto", "anthropic", "fake"):
+            raise typer.BadParameter("provider must be auto, anthropic or fake")
+        settings = settings.model_copy(update={"llm_provider": provider})
+    db = Database(settings.db_path)
+    repo = BundleRepository(db)
+    bundles = list(repo.iter_bundles())
+    if not bundles:
+        raise typer.BadParameter("no bundles stored; run `ehr build-fhir` first.")
+
+    llm = create_llm(settings)
+    service = SummaryService(llm, SummaryCache(db))
+    result = service.summarize_all(
+        bundles, concurrency=settings.summary_concurrency, limit=limit, force=force
+    )
+    typer.echo(
+        f"provider={llm.provider} model={llm.model}: generated={result.generated} "
+        f"cache_hits={result.cache_hits} failed={len(result.failures)}"
+    )
+    for patient_id, reason in list(result.failures.items())[:10]:
+        typer.echo(f"  FAILED {patient_id}: {reason}")
+    if result.failures and not result.summaries:
+        raise typer.Exit(code=1)
+
+
+@app.command("eval-summaries")
+def eval_summaries() -> None:
+    """Score stored summaries against the source data (word limit, grounding, recall)."""
+    from ehr_media.storage.bundle_repo import BundleRepository
+    from ehr_media.storage.db import Database
+    from ehr_media.storage.summary_cache import SummaryCache
+    from ehr_media.summarization.evaluation import evaluate
+
+    settings = get_settings()
+    db = Database(settings.db_path)
+    repo, cache = BundleRepository(db), SummaryCache(db)
+    pairs = []
+    for stored in repo.iter_bundles():
+        summary = cache.latest_for(stored.patient.patient_id, stored.content_hash)
+        if summary is not None:
+            pairs.append((summary, stored))
+    if not pairs:
+        raise typer.BadParameter("no summaries found; run `ehr summarize` first.")
+    report = evaluate(pairs)
+    settings.ensure_dirs()
+    out = settings.reports_dir / "summary_eval.json"
+    out.write_text(report.model_dump_json(indent=2), encoding="utf-8")
+    typer.echo(report.model_dump_json(indent=2))
+    typer.echo(f"report: {out}")
+    if not report.passes_hard_requirements():
         raise typer.Exit(code=1)
 
 

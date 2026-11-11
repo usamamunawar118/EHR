@@ -33,7 +33,8 @@ class Settings(BaseSettings):
     # --- LLM -----------------------------------------------------------------
     llm_provider: LLMProvider = "auto"
     llm_model: str = "claude-haiku-5-5"
-    llm_max_tokens: int = Field(default=700, ge=100, le=4096)
+    # Thinking tokens count toward max_tokens, so leave generous headroom for a ~200-word answer.
+    llm_max_tokens: int = Field(default=4096, ge=1024, le=64000)
     llm_timeout_s: float = Field(default=60.0, gt=0)
     summary_concurrency: int = Field(default=4, ge=1, le=16)
     anthropic_api_key: str | None = Field(
