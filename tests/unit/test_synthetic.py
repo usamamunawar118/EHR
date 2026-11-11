@@ -27,6 +27,31 @@ def test_different_seed_gives_different_output(tmp_path: Path) -> None:
     assert _tree_bytes(tmp_path / "a") != _tree_bytes(tmp_path / "b")
 
 
+def test_output_uses_unix_line_endings_on_every_platform(tmp_path: Path) -> None:
+    generate_dataset(tmp_path / "raw")
+    files = [p for p in tmp_path.rglob("*") if p.is_file()]
+    assert files
+    assert not [p.name for p in files if b"\r\n" in p.read_bytes()]
+
+
+def test_committed_sample_data_is_exactly_what_the_generator_produces(tmp_path: Path) -> None:
+    """Guards against the generator changing without the committed sample being regenerated."""
+    committed = Path(__file__).resolve().parents[2] / "data" / "sample"
+    generate_dataset(tmp_path / "raw")
+
+    def snapshot(root: Path) -> dict[str, bytes]:
+        # CRLF -> LF so a checkout with autocrlf cannot cause a false alarm.
+        return {
+            p.relative_to(root).as_posix(): p.read_bytes().replace(b"\r\n", b"\n")
+            for p in sorted(root.rglob("*"))
+            if p.is_file()
+        }
+
+    assert snapshot(tmp_path) == snapshot(committed), (
+        "data/sample is stale: run `ehr generate-data` and commit the result"
+    )
+
+
 def test_manifest_describes_every_seeded_defect(tmp_path: Path) -> None:
     manifest = generate_dataset(tmp_path / "raw")
     on_disk = json.loads((tmp_path / "DEFECT_MANIFEST.json").read_text("utf-8"))

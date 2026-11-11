@@ -843,12 +843,14 @@ def generate_dataset(
         old.unlink()
 
     export = _render_json(rng, everyone)
+    # Explicit "\n" everywhere: output must be byte-identical on Windows and Linux (the default
+    # would write CRLF on Windows), so the committed sample can be verified against the generator.
     (out_dir / "ehr_export.json").write_text(
-        json.dumps(export, indent=2, ensure_ascii=False), encoding="utf-8"
+        json.dumps(export, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n"
     )
 
     with (out_dir / "lab_results.csv").open("w", encoding="utf-8-sig", newline="") as fh:
-        writer = csv.writer(fh)
+        writer = csv.writer(fh, lineterminator="\n")
         writer.writerow(_CSV_HEADER)
         writer.writerows(_csv_rows(rng, everyone))
 
@@ -859,14 +861,14 @@ def generate_dataset(
                 continue
             ocr_mrn = p.idx in OCR_MRN_IDX and d is p.documents[0]
             (notes_dir / f"note_{p.mrn:08d}_{n:02d}.txt").write_text(
-                _render_txt(rng, p, d, ocr_mrn=ocr_mrn), encoding="utf-8"
+                _render_txt(rng, p, d, ocr_mrn=ocr_mrn), encoding="utf-8", newline="\n"
             )
             n_txt += 1
     # Near-duplicates: the same document re-scanned with OCR misreads.
     for i in NEAR_DUP_IDX:
         p, d = people[i], people[i].documents[0]
         (notes_dir / f"note_{p.mrn:08d}_scan_copy.txt").write_text(
-            _render_txt(rng, p, d, ocr_mrn=False, substitutions=2), encoding="utf-8"
+            _render_txt(rng, p, d, ocr_mrn=False, substitutions=2), encoding="utf-8", newline="\n"
         )
         n_txt += 1
 
@@ -890,6 +892,6 @@ def generate_dataset(
     man.totals["seeded_defects"] = sum(rules.values())
     # The manifest is ground truth for tests, so it lives beside (not inside) the raw inputs.
     (out_dir.parent / "DEFECT_MANIFEST.json").write_text(
-        json.dumps(man.to_dict(), indent=2), encoding="utf-8"
+        json.dumps(man.to_dict(), indent=2), encoding="utf-8", newline="\n"
     )
     return man
